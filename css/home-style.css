@@ -330,7 +330,7 @@ ul.common-listing li:before {
 }
 .common-page-hd {
     font-size: 38px;
-    color: var(--orange);
+    color: var(--orange-dark);
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1em;
