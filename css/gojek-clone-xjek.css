@@ -903,6 +903,17 @@ span.smallspace {
     text-align: justify;
     position: relative;
 }
+.banner-description-top .right-caption:before
+{
+    content: '';
+    display: block;
+    padding-top: 87%;
+}
+.banner-description-top .right-caption img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 .banner-description-top .left-caption .heading {
     font-size: 24.66px;
     font-weight: 600;

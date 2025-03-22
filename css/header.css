@@ -1880,6 +1880,9 @@ textarea:focus {
     footer .footer-col strong {
         font-size: 18px;
     }
+    footer .footer-col .addressblock strong {
+      text-align: center;
+    }
 }
 @media screen and (max-width:355px) {
     .buy-button.enqmob {
