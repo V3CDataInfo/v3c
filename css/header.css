@@ -1084,10 +1084,14 @@ footer {
     display: block;
 }
 .footer-build-image.half_width img {
-  /*width: 50%;*/
+  width: 50%;
+  height: 644px;
+}
+.footer-build-image.tenth_part img {
   width: 10%;
   height: 644px;
 }
+
 .footer-build-image.half_width {
   display: flex;
   flex-wrap: wrap;
