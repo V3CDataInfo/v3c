@@ -1,5 +1,4 @@
 /************************************/
-
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -978,7 +977,12 @@ header .logo img {
 .header-right ul {
     display: inline-block;
     padding: 0;
-    font-size: 0
+    font-size: 0;
+}
+.header-right ul.adjustment {
+    max-width: 830px;
+    max-height: 16px; 
+    overflow: hidden;
 }
 .header-right ul li a {
     display: inline-block;
@@ -995,7 +999,7 @@ header .logo img {
 }
 .header-right ul li {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 12px;
     position: relative
 }
 .header-right ul li.hilight-menu a {
@@ -1055,7 +1059,7 @@ header .logo img {
     color: #fff;
     text-decoration: none;
     background-color: #ff6e00;
-    padding: 12px 13px;
+    padding: 12px 9px;
     border-radius: 3px;
     font-weight: 500;
     display: inline-block;
@@ -1091,7 +1095,6 @@ footer {
   width: 10%;
   height: 644px;
 }
-
 .footer-build-image.half_width {
   display: flex;
   flex-wrap: wrap;
@@ -1713,7 +1716,7 @@ textarea:focus {
         flex-wrap: wrap;
     }
     .header-right ul {
-        display: block
+        display: block;
     }
     .header-right ul li {
         display: block;
