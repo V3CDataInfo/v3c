@@ -5994,6 +5994,7 @@ img {
         width: auto;
         margin-bottom: 25px;
         display: block;
+        order: 2;
     }
     .banner-description-top .right-caption {
         width: calc(100% - 0px);
@@ -6002,6 +6003,12 @@ img {
         width: -moz-calc(100% - 0px);
         width: -webkit-calc(100% - 0px);
         text-align: center;
+        order: 1;
+        max-width: 684px;
+        margin-bottom: 20px;
+    }
+    ul.genfet {
+        order: 3;
     }
     .banner-description-top .right-caption .banner-btn {
         justify-content: center;
@@ -6027,6 +6034,9 @@ img {
         letter-spacing: 0;
         margin-bottom: 20px;
     }
+    .banner-section-inner{
+        padding: 0 15px;
+    }
     .banner-description-top {
         justify-content: center;
         margin-bottom: 50px;
@@ -6034,7 +6044,7 @@ img {
     .banner-description-top {
         margin-bottom: 0;
     }
-    .banner-section .banner-btn {
+    .banner-section .banner-btn { 
         justify-content: center;
     }
     .bottom-banner .gojek-services {
@@ -6097,7 +6107,6 @@ img {
 @media screen and (max-width: 991px) {
     .banner-section.mainbanner {
         margin: 0 0 90px 0;
-        padding-top: 30px;
     }
     ul.genfet {
         margin-top: 0;
@@ -6571,7 +6580,6 @@ img {
     }
     .banner-section.mainbanner {
         margin: 0 0 110px 0;
-        padding-top: 30px;
     }
     .banner-btn {
         justify-content: flex-start;

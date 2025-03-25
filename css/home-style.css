@@ -522,9 +522,19 @@ ul.banner_contact-data li:before {
 }
 .banner-left {
     padding-top: 20px;
+    position: relative;
+}
+.banner-left:before {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 100%;
 }
 .banner-left img {
     width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 ul.banner_contact-data li a {
     margin: 0;
@@ -2088,6 +2098,12 @@ ul.core-values-row li strong {
         max-width: 400px;
         margin: 0 auto;
         display: block;
+    }
+    .banner-left {
+        max-width: 400px;
+    }
+    .banner-left:before {
+        padding-top: 91%;
     }
     /******************************/
     /******************************/

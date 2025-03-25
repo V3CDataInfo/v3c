@@ -999,7 +999,7 @@ header .logo img {
 }
 .header-right ul li {
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 15px;
     position: relative
 }
 .header-right ul li.hilight-menu a {
