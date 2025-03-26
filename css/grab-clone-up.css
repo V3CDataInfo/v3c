@@ -232,6 +232,7 @@ header.passive, header.trans {
   max-width: 1360px;
   margin:  auto;
   padding: 0 45px;
+   min-height: 60px;
 }
 .grab-header ul li a {
   min-height: 60px;
@@ -727,7 +728,7 @@ b {
   display: block;
   background: #fff;
   position: relative;
-  padding: 60px 0px 0;
+  padding: 85px 0px 0;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -886,7 +887,7 @@ span.smallspace {
   content: '';
   display: block;
   width: 100%;
-  padding-top: 84.11%;
+  padding-top: 92.11%;
 }
 .banner-description-top .right-caption img {
   position: absolute;
