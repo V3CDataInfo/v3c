@@ -1252,7 +1252,7 @@ ul.features-row li .features-title-area {
     width: 100%;
     font-size: 34px;
     line-height: 1em;
-    font-weight: bold;
+    font-weight: 600;
     align-items: center;
     display: flex;
     flex-wrap: wrap;

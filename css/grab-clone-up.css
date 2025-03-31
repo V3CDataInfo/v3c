@@ -2628,7 +2628,7 @@ ul.weblinks {
   justify-content: space-between;
 }
 .script-package-section .common-btn {
-  color: var(--secondary-color);
+  color: var(--hover-color);
 }
 .script-package-section .common-btn:visited {
   background-color: #fff;
@@ -2638,7 +2638,7 @@ ul.weblinks {
 }
 .script-package-left{
   width: 35%;
-  background-color: var(--secondary-color);
+  background-color: var(--hover-color);
   padding: 15px;
   margin-left: -15px;
   min-height: 100%;
