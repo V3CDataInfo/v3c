@@ -103,8 +103,8 @@ a:hover {
     gap: 10px;
     flex-wrap: wrap;
 }
-strong.themecolor1 {
-    margin-top: 0;
+.banner-section strong.themecolor1 {
+    margin-top: 0 !important;
 }
 .play-anim-ico {
     background-image: url(../images/home-new/play-button.svg);
