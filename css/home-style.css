@@ -103,6 +103,9 @@ a:hover {
     gap: 10px;
     flex-wrap: wrap;
 }
+strong.themecolor1 {
+    margin-top: 0;
+}
 .play-anim-ico {
     background-image: url(../images/home-new/play-button.svg);
     background-repeat: no-repeat;
