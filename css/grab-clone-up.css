@@ -949,7 +949,7 @@ span.smallspace {
   padding-right: 0 !important;
 }
 .banner-section .banner-btn a {
-  background: var(--main-color);
+  background: #00aa13; /*var(--main-color)*/
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -1020,14 +1020,14 @@ span.smallspace {
   background-color: #e4ba00;
 }
 .banner-section .banner-btn a.demovideo-btn {
-  background: #0fb158;
+  background: #11AC56;
   color: #fff;
 }
 .banner-section .banner-btn a.demovideo-btn:after {
   background-color: #0a8d45;
 }
 .banner-section .banner-btn a.introvideo-btn {
-  background-color: #f09b1d;
+  background-color: #cd7e08;
   color: #fff;
   gap: 10px;
 }
