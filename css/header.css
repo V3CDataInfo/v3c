@@ -1058,7 +1058,7 @@ header .logo img {
     font-family: 'exo 2';
     color: #fff;
     text-decoration: none;
-    background-color: #fc4d00;/*#ff6e00;*/
+    background-color: #ff6e00;
     padding: 12px 9px;
     border-radius: 3px;
     font-weight: 500;
@@ -1617,7 +1617,7 @@ textarea:focus {
     top: -38px;
     display: inline-block;
     border: none;
-    background-color: #fc4d00;/*#F56A00;*/
+    background-color: #ff6e00;
     color: #fff;
     font-size: 15px;
     right: 10px;
