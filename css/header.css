@@ -14,7 +14,106 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-car-wash:before {
+  content: "\ea04";
+  color: #1ca3ff;
+}
+.icon-deliverAll:before {
+  content: "\ea05";
+  color: #fc4a9f;
+}
+.icon-deliveryking:before {
+  content: "\ea06";
+  color: #d41d64;
+}
+.icon-fetures:before {
+  content: "\ea07";
+  color: #ac2df2;
+}
+.icon-fleet-company:before {
+  content: "\ea08";
+  color: #117639;
+}
+.icon-food-delivery1:before {
+  content: "\ea09";
+  color: #fe9b00;
+}
+.icon-front-panel:before {
+  content: "\ea0a";
+  color: #fc4a9f;
+}
+.icon-grocery-delivery:before {
+  content: "\ea0b";
+  color: #006f64;
+}
+.icon-house-cleaning:before {
+  content: "\ea0c";
+  color: #ff623a;
+}
+.icon-live-demo:before {
+  content: "\ea0d";
+  color: #006f64;
+}
+.icon-massage1:before {
+  content: "\ea0e";
+  color: #006f64;
+}
+.icon-more1:before {
+  content: "\ea0f";
+  color: #00aa13;
+}
+.icon-parcel-delivery:before {
+  content: "\ea10";
+  color: #1ca3ff;
+}
+.icon-pharmacy-delivery:before {
+  content: "\ea11";
+  color: #dbbf31;
+}
+.icon-pricing1:before {
+  content: "\ea12";
+  color: #1ca3ff;
+}
+.icon-security-guard:before {
+  content: "\ea13";
+  color: #db2626;
+}
+.icon-taxi1:before {
+  content: "\ea14";
+  color: #fe9b00;
+}
+.icon-tracking2:before {
+  content: "\ea15";
+  color: #117639;
+}
+.icon-admin:before {
+  content: "\ea16";
+  color: #d41d64;
+}
+.icon-app-flow:before {
+  content: "\ea17";
+  color: #fe9b00;
+}
+.icon-app-screens:before {
+  content: "\ea18";
+  color: #5c16ff;
+}
+.icon-beautician:before {
+  content: "\ea19";
+  color: #fc4a9f;
+}
+.icon-carpool:before {
+  content: "\ea1a";
+  color: #5c16ff;
+}
+.icon-car-rental:before {
+  content: "\ea1b";
+  color: #d41d64;
+}
+.icon-mobile_application1:before {
+  content: "\e9c6";
+  color: #5c16ff;
+}
 .icon-web-admin:before {
   content: "\ea00";
 }
@@ -1555,6 +1654,9 @@ header .logo img {
     height: 32px;
     width: 32px;
   }
+  .full-dropdown .header-list li a i.icon {
+    font-size: 32px;
+  }
 
   .full-dropdown .header-list li a span {
     width: calc(100% - 50px);
@@ -2636,7 +2738,7 @@ textarea:focus {
 
 @media screen and (max-width:991px) {
   .footer-top .footer-col {
-    width: 50%;
+    /* width: 50%; */
     margin-bottom: 25px;
   }
 
