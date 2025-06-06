@@ -224,7 +224,7 @@ header.passive, header.trans {
 }
 .grab-header .page-logo img {
   vertical-align: middle;
-  height: 47.6px;
+  height: 46px;
 }
 .grab-header-inner {
   display: grid;
