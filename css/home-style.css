@@ -1877,7 +1877,7 @@ ul.core-values-row li strong {
 /*************************************/
 .inq_form {
     padding: 40px 0 40px 0;
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 .inq_form .common-page-hd {
     margin-bottom: 20px;
@@ -1970,6 +1970,41 @@ ul.core-values-row li strong {
 }
 .common-page-hd.white strong:before{
     background-color: #fff;
+}
+/*************************************/
+.faq {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+.faq-inner {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.faq ul li > div {
+    padding: 10px 15px;
+}
+.faq ul li strong {
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff3e9;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+}
+.faq ul li {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.faq ul {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.faq .heading-area {
+    margin-bottom: 20px;
+    display: block;
 }
 /*************************************/
 @media screen and (max-width:1600px) {
@@ -2446,8 +2481,8 @@ ul.core-values-row li strong {
     .innovative-solutions {
         padding: 40px 0 10px 0;
     }
-    .features ~ .inq_form {
-        background-color: #f8f8f8;
+    .faq ~ .inq_form {
+        background-color: #fff;
     }
     .gojek-clone-app-right .screen:first-child {
         top: auto;
@@ -2471,6 +2506,9 @@ ul.core-values-row li strong {
     }
     .gojek-clone-app-right::after {
         display: none;
+    }
+    .faq ul {
+        grid-template-columns: 100%;
     }
 }
 @media screen and (max-width:630px) {
