@@ -1919,6 +1919,7 @@ ul.core-values-row li strong {
 .inq_form input[type=text],
 .inq_form input[type=tel],
 .inq_form input[type=email],
+.inq_form select,
 .inq_form textarea {
     padding: 8px 0 10px 0;
     font-size: 16px;
@@ -1932,7 +1933,7 @@ ul.core-values-row li strong {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     font-family: 'Exo 2';
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
     color: #000;
 }
@@ -1947,7 +1948,7 @@ ul.core-values-row li strong {
     gap: 20px;
     grid-template-columns: 1fr 1fr;
 }
-.input-row-flow:last-child {
+.input-row-flow:nth-last-child(-n + 2) {
     grid-column: span 2;
 }
 .inq_form_row .button-btn {
