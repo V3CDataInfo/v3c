@@ -883,7 +883,7 @@ span.smallspace {
   content: '';
   display: block;
   width: 100%;
-  padding-top: 92.11%;
+  padding-top: 84.11%;
 }
 .banner-description-top .right-caption img {
   position: absolute;
@@ -900,16 +900,20 @@ span.smallspace {
   margin: 0;
   text-align: left;
 }
+.banner-description-top .left-caption h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
 .banner-description-top .left-caption span {
-  font-size: 65px;
-  font-weight: 800;
-  line-height: 1em;
-  color: var(--main-color);
-  display: inline-block;
-  position: relative;
-  text-transform: capitalize;
-  margin-right: 13px;
-  margin: -10px 0 10px 0;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1em;
+    color: var(--main-color);
+    display: block;
+    position: relative;
+    text-transform: capitalize;
+    margin-right: 13px;
+    margin: -5px 0 10px 0;
 }
 .king-icon {
   position: absolute;
@@ -3527,6 +3531,9 @@ ul.subcat-listing li span {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
+.faq_list li:last-child{
+  grid-column: span 2;
+}
 .faq_list li {
   border: 1px solid #ddd;
   border-radius: 12px;
@@ -3922,7 +3929,7 @@ p {
   .main-title {
     font-size: 32px;
   }
-  .banner-description-top .left-caption span {
+  .banner-description-top .left-caption h1 {
     font-size: 50px;
   }
   .banner{
@@ -4123,7 +4130,7 @@ p {
     max-width: 667px;
     margin-bottom: 30px;
   }
-  .banner-description-top .left-caption span {
+  .banner-description-top .left-caption h1 {
     display: block;
     font-size: 45px;
   }
@@ -4282,6 +4289,15 @@ ul.tab-row:after{
   background-color: var(--main-color);
   color: #fff;
 }
+.faq_list {
+    grid-template-columns: 1fr;
+}
+.faq_list li:last-child {
+    grid-column: auto;
+}
+.banner-description-top .right-caption::before {
+    padding-top: 85.11%;
+}
 }
 @media screen and (max-width:767px) {
   .banner h1 {
@@ -4291,10 +4307,7 @@ ul.tab-row:after{
   .main-title {
     font-size: 26px;
   }
-  .banner-description-top .left-caption span {
-    display: block;
-    font-size: 38px;
-  }
+
   .deliverytypes ul {
     grid-template-columns: repeat(2,1fr);
   }
@@ -4361,9 +4374,13 @@ ul.tab-row:after{
     font-size: 26px;
     line-height: normal;
   }
-  .banner-description-top .left-caption span {
+  .banner-description-top .left-caption h1 {
     display: block;
     font-size: 35px;
+}
+  .banner-description-top .left-caption span {
+    display: block;
+    font-size: 20px;
     line-height: normal;
   }
   .tab-row{
