@@ -4254,6 +4254,30 @@ ul.subcat-listing li span {
 }
 
 /* ----------------------------------------------------- */
+.offer__banner{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 10;
+}
+.offer__banner .offer__close {
+	font-size: 26px;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+	align-items: center;
+	right: -4px;
+	top: -5px;
+	background-color: #fff;
+	padding: 0;
+	position: absolute;
+	cursor: pointer;
+}
+/* ----------------------------------------------------- */
 @media screen and (-webkit-min-device-pixel-ratio: 1.50) and (max-width: 1920px) {
   .banner h1 {
     font-size: 40px;
@@ -4764,6 +4788,10 @@ ul.reviews-list li {
 .faq__list {
   display: flex;
   flex-direction: column;
+}
+/* -------------------------------------- */
+.offer__banner {
+    width: 250px;
 }
 }
 
