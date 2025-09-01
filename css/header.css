@@ -14,6 +14,51 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-airport:before {
+  content: "\ea1c";
+}
+.icon-assistance-with-ride:before {
+  content: "\ea1d";
+}
+.icon-electric:before {
+  content: "\ea1e";
+}
+.icon-facebook:before {
+  content: "\ea1f";
+}
+.icon-instagram:before {
+  content: "\ea20";
+}
+.icon-linkedin:before {
+  content: "\ea21";
+}
+.icon-medical-services:before {
+  content: "\ea22";
+}
+.icon-pet:before {
+  content: "\ea23";
+}
+.icon-pinterest:before {
+  content: "\ea24";
+}
+.icon-real-estate-offer:before {
+  content: "\ea25";
+}
+.icon-services:before {
+  content: "\ea26";
+}
+.icon-taxi-with-accessibility:before {
+  content: "\ea27";
+}
+.icon-track-emp:before {
+  content: "\ea28";
+}
+.icon-twitter:before {
+  content: "\ea29";
+}
+.icon-youtube:before {
+  content: "\ea2a";
+}
 .icon-car-wash:before {
   content: "\ea04";
   color: #1ca3ff;
@@ -2539,6 +2584,31 @@ textarea:focus {
   font-family: 'Exo 2';
 }
 
+/* socail media */
+.F__socail{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.F__socail a{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 2px solid #ff6e00;
+  color: #ff6e00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.F__socail a:hover{
+  border-color: #000;
+  color: #000;
+}
 @media screen and (max-width:1330px) {
   .client-event-section .highlight2 {
     font-size: 5vw
@@ -2836,6 +2906,9 @@ textarea:focus {
   #video-popup-container {
     outline: 5px solid #f9f9f9;
   }
+  .F__socail {
+    justify-content: center;
+}
 }
 
 @media screen and (max-width:480px) {

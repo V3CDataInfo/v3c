@@ -4719,7 +4719,7 @@ ul.tab-row:after{
 }
 /* -------------------------------------- */
 .launch-section {
-    padding: 0;
+    padding-right: 0;
 }
 .launch_inner {
     padding: 40px 15px;
