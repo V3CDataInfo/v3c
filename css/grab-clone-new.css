@@ -1325,12 +1325,12 @@ span.smallspace {
 .RG__LIST {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 20px;
 }
 
 .RG__LIST li {
   border: 1px solid #FFFFFF;
-  padding: 25px;
+  padding: 20px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -1361,7 +1361,7 @@ span.smallspace {
 }
 
 .RG__LIST li strong {
-  font-size: 22px;
+  font-size: 20px;
   color: #000;
   line-height: 1em;
   text-transform: capitalize;
@@ -2523,7 +2523,9 @@ ul.weblinks {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 15px;
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .download .btn__div {
@@ -4262,6 +4264,8 @@ ul.subcat-listing li span {
   bottom: 0;
   width: 300px;
   z-index: 10;
+  height: auto;
+  max-width: 100%;
 }
 .offer__banner .offer__close {
 	font-size: 26px;
@@ -4794,6 +4798,9 @@ ul.reviews-list li {
 /* -------------------------------------- */
 .offer__banner {
     width: 250px;
+}
+.offer__banner img {
+  height: auto !important;
 }
 }
 
