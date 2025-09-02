@@ -675,7 +675,9 @@ b {
 .heading-area>.sub-title {
   margin-bottom: 0;
 }
-
+.heading-area.white p a{
+  color: #fff;
+}
 /* .m-color {
   color: var(--main-color) !important;
 } */
@@ -3704,7 +3706,7 @@ ul.subcat-listing li span {
 }
 
 .cl_small_video_list li a.client__btn {
-  background: url(../images/grab-clone-new/client-btn.png) no-repeat center center;
+  background: url(../images/grab-clone-new/client-btn.webp) no-repeat center center;
   background-size: cover;
 }
 
@@ -4796,6 +4798,9 @@ ul.reviews-list li {
 }
 
 @media screen and (max-width:630px) {
+  .banner-section{
+    background: linear-gradient(to top,#fffcf1,#eff7fe);
+  }
   .main-title {
     font-size: 26px;
     line-height: 1em;
