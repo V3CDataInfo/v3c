@@ -1788,7 +1788,7 @@ a {
   -ms-border-radius: 20px 0 0 20px;
   -o-border-radius: 20px 0 0 20px;
   position: sticky;
-  top: 145px;
+  top: 143px;
 }
 
 .services-area .services-tabs li {
@@ -1835,6 +1835,9 @@ a {
 .services-area .services-tabs li i {
   font-size: 27px;
 }
+.services-tabs li a {
+  pointer-events: none;
+}
 
 .unlimited-services-left {
   border: 1px solid #E1E6EF;
@@ -1845,6 +1848,7 @@ a {
   -o-border-radius: 0 20px 20px 0;
   padding: 15px;
   background-color: #fff;
+  min-height: 604px;
 }
 
 .components-text {
@@ -1956,13 +1960,20 @@ a {
 .services-tabs_content#deliver-anything ul li .single-service-inner {
   text-align: center;
 }
-
 .services-tabs_content {
-  display: none;
+visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .services-tabs_content.active {
-  display: block;
+ visibility: visible;
+  opacity: 1;
+  position: relative;
 }
 
 .m_0 {
@@ -3363,7 +3374,9 @@ ul.subcat-listing li span {
   font-size: 13px;
   font-weight: 600;
 }
-
+ul.subcat-listing li .icon-security-guard:before{
+  color: #1093A5 !important;
+}
 /*********************************/
 /******************************************/
 .deliverytypes {
@@ -4283,6 +4296,10 @@ ul.subcat-listing li span {
 	position: absolute;
 	cursor: pointer;
 }
+.offer__banner img{
+  vertical-align: top;
+}
+
 /* ----------------------------------------------------- */
 @media screen and (-webkit-min-device-pixel-ratio: 1.50) and (max-width: 1920px) {
   .banner h1 {
@@ -4898,6 +4915,12 @@ ul.reviews-list li {
 }
 .st_title {
     font-size: 25px;
+}
+.cl_small_video_list i {
+    font-size: 25px;
+}
+.cl_video_overlay i {
+    font-size: 30px;
 }
 }
 
