@@ -1048,14 +1048,14 @@ span.smallspace {
 }
 
 .banner-description-top .left-caption span {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1em;
     color: #000;
     display: block;
     position: relative;
     text-transform: capitalize;
-    margin: 0 0 10px 0;
+    margin: 2px 0 10px 0;
     background-image: none;
 }
 
