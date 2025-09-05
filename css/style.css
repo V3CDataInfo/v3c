@@ -2207,3 +2207,11 @@ textarea:focus {
      position: relative;
      text-align: left
  }
+ .enquiry-form-error {
+    background-color: #FFE5E5 !important;
+    border-color: #E48E8E !important;
+ }
+ .g-recaptcha {
+    display: block;
+    margin-bottom: 16px;
+ }
