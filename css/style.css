@@ -2211,7 +2211,7 @@ textarea:focus {
     background-color: #FFE5E5 !important;
     border-color: #E48E8E !important;
  }
- .g-recaptcha {
+ .recaptcha-input {
     display: block;
     margin-bottom: 16px;
  }
