@@ -1768,7 +1768,7 @@ ul.statistics-list li i {
 .client-reviews ul li a::before {
     content: '';
     display: block;
-    padding-top: 71%;
+    padding-top: 100%;
     width: 100%
 }
 .client-reviews ul li a img {
@@ -2663,7 +2663,6 @@ ul.statistics-list li i {
 }
 .client-photos {
     padding: 40px 0;
-    background-color: #f8f8f8;
 }
 .client-photos .common-button {
     margin: 0 0 0 0
@@ -3244,7 +3243,8 @@ strong.sub__title {
 }
 /* ---------------------------------------------- */
 .hire__driver{
-    padding: 40px 15px 0 15px;
+    padding: 40px 15px 40px 15px;
+    background-color: #f8f8f8;
 }
 .driver-inner {
     max-width: 1310px;
@@ -3621,7 +3621,10 @@ strong.sub__title {
         max-width: 100%;
         text-align: center;
         order: 1;
-        margin: 0 auto
+        margin: 0 auto;
+    }
+    .banner-description-top .right-caption img {
+        height: auto;
     }
     .banner-description-top {
         gap: 20px;
@@ -3828,9 +3831,6 @@ strong.sub__title {
     }
     .ai-features ul {
         grid-template-columns: 1fr 1fr;
-    }
-    .offer__banner {
-        width: 250px;
     }
 }
 @media screen and (max-width: 767px) {
