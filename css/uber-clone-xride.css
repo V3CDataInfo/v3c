@@ -1919,9 +1919,7 @@ ul.statistics-list li i {
 .testimonial-section {
     padding: 40px 0 30px;
     width: 100%;
-    margin-bottom: 30px;
     position: relative;
-    background-color: #f8f8f8;
 }
 .testimonial-section-inner {
     margin: 0 auto;
@@ -2676,6 +2674,7 @@ ul.statistics-list li i {
     padding: 40px 0;
     position: relative;
     z-index: 0;
+    background-color: #f8f8f8;
 }
 .adamvideo-section-inner {
     max-width: 1310px;
