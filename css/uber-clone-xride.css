@@ -714,14 +714,13 @@ ul.general-list {
     display: block;
     background: #fff;
     position: relative;
-    padding: 66px 0 0 0;
+    padding: 66px 0 40px 0;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center
 }
 .banner-section.mainbanner {
-    margin: 0 0 95px 0;
     background: linear-gradient(180deg,rgb(252 77 0 / .05) 0%,rgb(68 172 0 / .05) 37.6%,rgb(68 172 0 / .05) 68.33%,rgb(191 108 0 / .05) 100%)
 }
 .banner-section .demo-video {
@@ -729,14 +728,6 @@ ul.general-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px
-}
-ul.genfet {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(5,1fr);
-    gap: 20px;
-    margin-top: 20px;
-    margin-bottom: -90px
 }
 .feature-cap {
     border-radius: 20px;
@@ -1271,6 +1262,16 @@ button.nav-control.left-arrow {
 .banner-section.service-slider {
     padding: 58px 0 10px 0
 }
+/********************************************/
+ul.genfet {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: -90px;
+}
+/********************************************/
 .about-uber-clone {
     padding: 40px 0 35px 0;
 }
@@ -1389,7 +1390,8 @@ button.nav-control.left-arrow {
 }
 .build-app {
     padding: 40px 0;
-    background-color: #f8f8f8
+    background-color: #f8f8f8;
+    margin-bottom: 50px;
 }
 .build-app-inner {
     max-width: 1310px;
