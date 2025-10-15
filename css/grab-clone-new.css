@@ -873,10 +873,6 @@ b {
   object-position: center center;
 }
 
-.banner-section.mainbanner {
-  margin: 0 0 100px 0;
-}
-
 ul.genfet {
   display: grid;
   width: 100%;
@@ -1233,10 +1229,53 @@ span.smallspace {
 
 .banner-section .slick-next.slick-arrow {
   right: 50%;
-  transform: translateX(100%);
   margin-right: -10px;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
 }
-
+/********************************************/
+.about-grab-clone {
+  padding: 40px 0 35px 0;
+  margin-bottom: 95px;
+}
+.about-grab-clone .play-anim-ico {
+  top: auto;
+  left: 25%;
+  margin: 0;
+  bottom: 10px;
+  transform: scale(.8) translateX(-50%);
+  -webkit-transform: scale(.8) translateX(-50%);
+  -moz-transform: scale(.8) translateX(-50%);
+  -ms-transform: scale(.8) translateX(-50%);
+  -o-transform: scale(.8) translateX(-50%)
+}
+.about-grab-clone img {
+  vertical-align: top
+}
+.about-grab-clone-inner {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.about-grab-clone_row {
+  display: grid;
+  grid-template-columns: 0.71fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.about-grab-clone-left {
+  position: relative
+}
+.about-grab-clone-left:hover {
+  color: var(--orange)
+}
+.about-grab-clone-left img {
+ max-width: 100%;
+}
+/******************************************************/
 .typewriter {
   display: flex;
   align-items: center;
@@ -3022,7 +3061,7 @@ ul.reviews-list li.morereview a:after {
 
 /**************************************/
 .services+.demo-video-laptop {
-  background: #f8f8f8;
+  background: #fff;
 }
 
 .statistics~.download {
@@ -3115,6 +3154,9 @@ ul.reviews-list li.morereview a:after {
 }
 
 /* ============================================================= */
+.services {
+  background-color: #f8f8f8;
+}
 .services-inner {
   max-width: 1310px;
   padding: 0 15px;
@@ -4770,6 +4812,9 @@ ul.tab-row:after{
 }
 .launch-content{
   width: 100%;
+}
+.about-grab-clone_row {
+  grid-template-columns: 100%;
 }
 /* -------------------------------------- */
 .statisticsmain ul {
