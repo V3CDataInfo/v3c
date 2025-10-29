@@ -1865,6 +1865,65 @@ header .logo img {
     -webkit-animation: __SP__BG 1s linear infinite;
 }
 
+
+.dr_inner__area{
+  gap: 25px;
+  align-items: center;
+  background-size: cover;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 15px 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+}
+.dr_inner__area .drop_down_title_area{
+  margin-bottom: 0;
+}
+
+ .uber_dropdown_area .h-dropdown-inner-area {
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+ }
+ .uber_dropdown_area .dropdown-right{
+  padding: 20px 15px;
+ }
+ .dr_inner__area .drop_down_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.dr__img img{
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.uber_dropdown_area .dropdown-right {
+    /* background: linear-gradient(to left, #edf8ff 50%, #f4f0ff 50%); */
+    background:linear-gradient(to left, #fff8ef 50%, #f3efff 50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    gap: 25px;
+}
+.uber_dropdown_area .dropdown_video_block {
+    width: 100%;
+    width: calc(100% + 40px);
+    width: -webkit-calc(100% + 40px);
+    width: -moz-calc(100% + 40px);
+    width: -ms-calc(100% + 40px);
+    width: -o-calc(100% + 40px);
+    margin-bottom: 0;
+}
+
+.uber_dropdown_area .dropdown_video_block img{
+  box-shadow: 0 0 5px rgba(0, 0, 0, .175);
+
+}
   @keyframes __SP__BG {
     0% {
       box-shadow: 0 0 0 0 rgba(0, 194, 153, 0.3), 0 0 0 10px rgba(0, 194, 153, 0.3), 0 0 0 20px rgba(0, 194, 153, 0.3)
@@ -1913,12 +1972,6 @@ header .logo img {
     100% {
       box-shadow: 0 0 0 10px rgba(65, 105, 225, 0.3), 0 0 0 20px rgba(65, 105, 225, 0.3), 0 0 0 30px rgba(65, 105, 225, 0)
     }
-
-
-
-
-
-
   }
 
 
@@ -1990,6 +2043,9 @@ header .logo img {
   }
   .hover-bg12 a:hover {
     background-color: #eedef7 !important; /* extra pale mint */
+  }
+  .hover_bg_whatspp a:hover{
+    background-color: #d8ffe6 !important;
   }
 
 }
