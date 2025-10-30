@@ -283,7 +283,8 @@ img {
     z-index: 0;
     position: relative;
     overflow: hidden;
-    text-transform: capitalize
+    text-transform: capitalize;
+    cursor: pointer;
 }
 .common-btn.nagative {
     background-color: #fff0;
@@ -3298,7 +3299,7 @@ strong.sub__title {
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     background-repeat: no-repeat;
-    background-position: calc(100% + 25px) bottom;
+    background-position: calc(100% + 51px) bottom;
     background-size: 509px;
     position: relative;
     z-index: 1;

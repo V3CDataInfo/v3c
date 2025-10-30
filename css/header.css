@@ -1933,6 +1933,7 @@ header .logo img {
 .gc_more_detail:hover{
   color: #fe9b00 !important;
 }
+
   @keyframes __SP__BG {
     0% {
       box-shadow: 0 0 0 0 rgba(0, 194, 153, 0.3), 0 0 0 10px rgba(0, 194, 153, 0.3), 0 0 0 20px rgba(0, 194, 153, 0.3)
@@ -2056,6 +2057,19 @@ header .logo img {
   .hover_bg_whatspp a:hover{
     background-color: #d8ffe6 !important;
   }
+.uber_dropdown_area .dropdown-right .dr_inner__area:first-child .dropdown_video_block i {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    bottom: 20px;
+    right: 37px;
+    top: auto;
+    left: auto;
+    /* transform: scale(0.8); */
+    color: #014736;
+}
 
 }
 
