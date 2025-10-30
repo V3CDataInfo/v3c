@@ -1892,8 +1892,9 @@ header .logo img {
   padding: 20px 15px;
  }
  .dr_inner__area .drop_down_title {
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-size: 17px;
+  margin-bottom: 7px;
+  position: relative;
 }
 .dr__img img{
   border-radius: 12px;
@@ -1923,6 +1924,14 @@ header .logo img {
 .uber_dropdown_area .dropdown_video_block img{
   box-shadow: 0 0 5px rgba(0, 0, 0, .175);
 
+}
+.gc_more_detail{
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+}
+.gc_more_detail:hover{
+  color: #fe9b00 !important;
 }
   @keyframes __SP__BG {
     0% {
