@@ -2449,7 +2449,7 @@ footer .p-text {
 }
 
 /************************** Footer CSS End *****************************/
-.popupform .slider-popup {
+.popupform .form-holder .slider-popup {
   margin: 0;
   padding: 10px 10px 10px 40px;
   width: 100%;
@@ -2501,7 +2501,7 @@ footer .p-text {
   top: 11px;
 }
 
-.popupform select {
+.popupform .form-holder select {
   color: #666;
   min-height: 39px;
   box-sizing: border-box;
@@ -2516,7 +2516,7 @@ footer .p-text {
   font-size: 14px;
 }
 
-.popupform textarea {
+.popupform .form-holder textarea {
   height: 100px;
   resize: vertical;
 }
