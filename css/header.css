@@ -1787,7 +1787,7 @@ header .logo img {
   background-color: #d8f3ee;
 }
 
-  .dropdown-right .dropdown_video_block i {
+.dropdown-right .dropdown_video_block i {
     width: 40px;
     position: absolute;
     height: 40px;
@@ -1802,13 +1802,13 @@ header .logo img {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     left: 50%;
-    top: 50%;
+    top: 80%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-  }
+}
 
   .dropdown-right .dropdown_video_block {
     position: relative;
@@ -1913,11 +1913,11 @@ header .logo img {
 }
 .uber_dropdown_area .dropdown_video_block {
     width: 100%;
-    width: calc(100% + 40px);
-    width: -webkit-calc(100% + 40px);
-    width: -moz-calc(100% + 40px);
-    width: -ms-calc(100% + 40px);
-    width: -o-calc(100% + 40px);
+    width: calc(100% + 39px);
+    width: -webkit-calc(100% + 39px);
+    width: -moz-calc(100% + 39px);
+    width: -ms-calc(100% + 39px);
+    width: -o-calc(100% + 39px);
     margin-bottom: 0;
 }
 
