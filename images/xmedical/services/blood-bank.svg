@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F2F2;}
+	.st1{fill:#B90000;}
+	.st2{fill:#960505;}
+	.st3{fill:#CFD2D3;}
+	.st4{fill:#A37E3D;}
+	.st5{fill:#758DAF;}
+	.st6{fill:#71C967;}
+	.st7{fill:#3E933A;}
+</style>
+<rect x="9.9" y="15.4" class="st0" width="44.1" height="44.1"/>
+<path class="st1" d="M21,45.2L21,45.2c-3.3,0-5.4-3.7-3.9-6.9l3.9-8.5l3.9,8.5C26.4,41.5,24.3,45.2,21,45.2z"/>
+<path class="st2" d="M24.9,38.3L21,29.8v15.4C24.3,45.2,26.4,41.5,24.9,38.3z"/>
+<path class="st1" d="M43,45.2L43,45.2c-3.3,0-5.4-3.7-3.9-6.9l3.9-8.5l3.9,8.5C48.4,41.5,46.3,45.2,43,45.2z"/>
+<path class="st2" d="M47,38.3L43,29.8v15.4C46.3,45.2,48.4,41.5,47,38.3z"/>
+<path class="st1" d="M32,55.2L32,55.2c-3.3,0-5.4-3.7-3.9-6.9l3.9-8.5l3.9,8.5C37.4,51.4,35.3,55.2,32,55.2z"/>
+<path class="st2" d="M35.9,48.3L32,39.7v15.4C35.3,55.2,37.4,51.4,35.9,48.3z"/>
+<rect x="5.5" y="22.1" class="st3" width="6.6" height="30.9"/>
+<rect x="51.9" y="22.1" class="st3" width="6.6" height="30.9"/>
+<polyline class="st4" points="3.3,57.4 3.3,50.8 14.3,50.8 14.3,57.4 "/>
+<polyline class="st4" points="49.7,57.4 49.7,50.8 60.7,50.8 60.7,57.4 "/>
+<polyline class="st4" points="14.3,17.7 14.3,24.3 3.3,24.3 3.3,17.7 "/>
+<polyline class="st4" points="60.7,17.7 60.7,24.3 49.7,24.3 49.7,17.7 "/>
+<rect y="57.4" class="st5" width="64" height="6.6"/>
+<polyline class="st5" points="41.9,17.7 49.7,17.7 60.7,17.7 64,17.7 32,0 0,17.7 3.3,17.7 14.3,17.7 22.1,17.7 "/>
+<circle class="st3" cx="32" cy="17.7" r="9.9"/>
+<polygon class="st6" points="37.5,15.4 34.2,15.4 34.2,12.1 29.8,12.1 29.8,15.4 26.5,15.4 26.5,19.9 29.8,19.9 29.8,23.2 
+	34.2,23.2 34.2,19.9 37.5,19.9 "/>
+<polygon class="st7" points="34.2,15.4 34.2,12.1 32,12.1 32,23.2 34.2,23.2 34.2,19.9 37.5,19.9 37.5,15.4 "/>
+</svg>
