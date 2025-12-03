@@ -66,9 +66,14 @@
 .footer-details ul.page-listview-area.grid_4 {
   grid-template-columns: repeat(4, 1fr);
 }
+.footer .container {
+  max-width: 1310px;
+  margin: auto;
+  padding: 0 15px;
+}
 .footer-details ul.page-listview-area li {
   list-style-type: none;
-  background: url(../images/home-2025/list-arrow.svg) no-repeat 0 0;
+  background: url(../images/list-arrow.svg) no-repeat 0 0;
   padding-left: 28px;
   line-height: 20px;
   font-size: 15px;
