@@ -4731,6 +4731,7 @@ ul.sitemap li .main-cat-block strong.newsubtitle {
     overflow: hidden;
     padding: 5px;
     display: inline-block;
+    cursor: pointer;
 }
 .testimonial-section-row-flow ul li:nth-last-child(1) .testimonial-single-item,
 .testimonial-section-row-flow ul li:nth-last-child(2) .testimonial-single-item,
