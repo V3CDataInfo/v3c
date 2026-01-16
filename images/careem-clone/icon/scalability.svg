@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="scalability" clip-path="url(#clip0_2997_6579)">
+<g id="Layer 7">
+<path id="Vector" d="M26 17.5V14.5H23.855C23.6524 13.4254 23.2303 12.4041 22.615 11.5L24.115 10L22 7.87L20.5 9.37C19.5959 8.75473 18.5746 8.3326 17.5 8.13V6H14.5V8.145C13.4254 8.3476 12.4041 8.76973 11.5 9.385L10 7.885L7.87 10L9.37 11.5C8.75473 12.4041 8.3326 13.4254 8.13 14.5H6V17.5H8.145C8.3476 18.5746 8.76973 19.5959 9.385 20.5L7.885 22L10 24.13L11.5 22.63C12.4041 23.2453 13.4254 23.6674 14.5 23.87V26H17.5V23.855C18.5746 23.6524 19.5959 23.2303 20.5 22.615L22 24.115L24.13 22L22.63 20.5C23.2453 19.5959 23.6674 18.5746 23.87 17.5H26Z" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_2" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_3" d="M25 7L31 1" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_4" d="M27.5 1H31V4.5" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_5" d="M7 7L1 1" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_6" d="M4.5 1H1V4.5" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_7" d="M25 25L31 31" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_8" d="M27.5 31H31V27.5" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_9" d="M7 25L1 31" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_10" d="M4.5 31H1V27.5" stroke="white" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2997_6579">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
