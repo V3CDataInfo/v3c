@@ -1929,7 +1929,7 @@ strong.dp__blue{
 
   .full-dropdown .header-list li a span strong {
     text-transform: capitalize;
-    /* font-weight: 600; */
+    font-weight: 600;
   }
   .full-dropdown .header-list em {
     font-style: normal;
