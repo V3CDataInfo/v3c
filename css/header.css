@@ -1900,7 +1900,9 @@ strong.dp__blue{
     background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+.full-dropdown .header-list li a i.icon-chat{
+  color: #f59e0b;
+}
   .full-dropdown .header-list li a i img {
     width: 20px;
     height: 20px;
