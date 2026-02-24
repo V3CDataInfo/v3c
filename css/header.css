@@ -13,6 +13,58 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-otp-verification:before {
+  content: "\ea55";
+}
+.icon-graphical-status:before {
+  content: "\ea56";
+}
+.icon-web-cookies:before {
+  content: "\ea57";
+}
+.icon-taxi-cancel:before {
+  content: "\ea58";
+}
+.icon-history-detail:before {
+  content: "\ea59";
+}
+.icon-low-battery-consumption:before {
+  content: "\ea5a";
+}
+.icon-in-app-navigation:before {
+  content: "\ea5b";
+}
+.icon-database-indexing-for-fast-page-loading:before {
+  content: "\ea5c";
+}
+.icon-server-compatibility:before {
+  content: "\ea5d";
+}
+.icon-google-maps:before {
+  content: "\ea5e";
+}
+.icon-twilio-sms-gateway:before {
+  content: "\ea5f";
+}
+.icon-mobile-verification:before {
+  content: "\ea60";
+}
+.icon-baby-seat:before {
+  content: "\ea61";
+}
+.icon-free-web-panel-for-taxi-companies:before {
+  content: "\ea62";
+}
+.icon-money-transfer:before {
+  content: "\ea63";
+}
+.icon-administration:before {
+  content: "\ea64";
+}
+.icon-h_blog:before {
+  content: "\ea65";
+  color: #f59e0b;
+}
 .icon-whatsapp:before {
   content: "\ea53";
   color: #25d366;
@@ -1909,8 +1961,8 @@ strong.dp__blue{
   }
 
   .full-dropdown .header-list li a i.icon img {
-    height: 32px;
-    width: 32px;
+    height: 26px;
+    width: 26px;
   }
 .full-dropdown .header-list li a i.icon {
     font-size: 26px;
@@ -1942,7 +1994,7 @@ strong.dp__blue{
   }
 
   .header-right ul li.full-dropdown ul.drop-menu {
-    top: 82%;
+    top: 43px;
     transition: all 0.1s ease-in-out;
     visibility: hidden;
     opacity: 0;
@@ -1951,6 +2003,7 @@ strong.dp__blue{
     -moz-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
+    padding-top: 37px;
 }
   .full-dropdown .header-list:not(:last-child) {
     border-bottom: 1px solid #ccc;
