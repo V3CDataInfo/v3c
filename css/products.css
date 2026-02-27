@@ -419,7 +419,8 @@ product-section .card-content p {
     .firstbillion-cnt {
         grid-template-columns: 100%;
     }
-    .heading-style {
+    .heading-style,
+    h1.page-heading {
         font-size: 35px;
     }
 }
@@ -443,7 +444,8 @@ product-section .card-content p {
     .right-column.have_four {
         grid-template-columns: 100%;
     }
-    .heading-style {
+    .heading-style,
+    h1.page-heading {
         font-size: 30px;
     }
 }
