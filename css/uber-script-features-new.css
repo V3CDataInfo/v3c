@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Exo 2', sans-serif;
 }
 
 *::after,
@@ -881,7 +882,6 @@ b {
 /* --------------------------------------------------- */
 .pr-section {
     padding: 40px 0;
-    background-color: var(--primary-light);
 }
 .pr-inner {
     max-width: 1310px;
@@ -1065,13 +1065,14 @@ b {
 
 /* Active tab */
 .tab-btn.tab_active {
-  color: var(--primary);
-  font-weight: 600;
-  background: var(--primary-light);
-  border: 2px solid #e5e5e5;
-  border-bottom: none;
-  border-radius: 12px 12px 0 0;
-  z-index: 2;
+    color: var(--primary);
+    font-weight: 600;
+    background: #fff;
+    border: 2px solid #e5e5e5;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    z-index: 2;
+    font-family: "Exo 2";
 }
 
 /* Create curved connection effect */
@@ -1081,7 +1082,7 @@ b {
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background: var(--primary-light);
+  background: #fff;
   left: 0;
 }
 
@@ -1226,6 +1227,9 @@ b {
     width: -moz-calc(100% - 80px);
     width: -ms-calc(100% - 80px);
     width: -o-calc(100% - 80px);
+}
+.package-column p {
+    min-height: 253px;
 }
 /* --------------------------------------------------- */
 .rd-inner{
@@ -1411,6 +1415,9 @@ b {
     -o-border-radius: 50%;
 }
 /* --------------------------------------------------- */
+.wh-section{
+    background-color: #f8f8f8;
+}
 .wh-inner{
     display: flex;
     flex-wrap: wrap;
@@ -1494,9 +1501,6 @@ b {
     -o-border-radius: 12px;
 }
 /* --------------------------------------------------- */
-.ad-section {
-    background-color: #f8f8f8;
-}
 .ad-inner{
     max-width: 1310px;
     padding: 0 15px;
@@ -1536,7 +1540,7 @@ b {
 }
 /* --------------------------------------------------- */
 .alg-section{
-    background: #fff;
+    background: var(--primary-light);
 }
 .alg-inner{
     max-width: 1310px;
@@ -1590,9 +1594,6 @@ b {
     text-align: center;
 }
 /* --------------------------------------------------- */
-.cr-section{
-    background-color: #f8f8f8;
-}
 .cr-inner{
     max-width: 1310px;
     padding: 0 15px;
@@ -1635,6 +1636,9 @@ b {
     text-align: center;
 }
 /* --------------------------------------------------- */
+.av__section{
+    background-color: #f8f8f8;
+}
 .av__inner{
     max-width: 1310px;
     padding: 0 15px;
