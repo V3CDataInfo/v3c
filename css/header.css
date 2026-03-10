@@ -3344,10 +3344,6 @@ textarea:focus {
     margin-top: 10px;
   }
 
-  header .logo img {
-    max-height: 52px
-  }
-
   footer ul.footer_links li:not(:last-child) {
     border-right: 1px solid #ccc !important;
   }
@@ -3439,11 +3435,6 @@ textarea:focus {
   footer ul.blanklist {
     justify-content: center;
   }
-
-  header .logo img {
-    max-height: 35px;
-  }
-
   footer .addressblock {
     padding: 0;
     text-align: center;

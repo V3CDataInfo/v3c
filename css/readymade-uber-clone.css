@@ -26,8 +26,16 @@
     margin: 0;
     padding: 0;
 }
-.mb10{
+.mb10 {
     margin-bottom: 10px;
+}
+.image-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
 }
 @keyframes pulse-me {
     0% {
@@ -1965,21 +1973,6 @@ ul.statistics-list li i {
 .adamvideo-section .video-holding:hover {
     color: var(--orange)
 }
-.adamvideo-section .video-holding::before {
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top: 56.25%
-}
-.adamvideo-section .video-holding img {
-    vertical-align: top;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto
-}
 .adamvideo-section .client-video-block {
     width: 49%;
     border: 1px solid #ddd;
@@ -2006,7 +1999,8 @@ ul.statistics-list li i {
     border-radius: 50%;
 }
 .adamvideo-section .flow-row img {
-    max-width: 100%
+    max-width: 100%;
+    vertical-align: top;
 }
 .adamvideo-section .video-holding iframe {
     width: 100%;
@@ -3639,6 +3633,14 @@ section.send__parcel .cmn-primary-btn {
     .mainWrapper>* {
         padding: 40px 0;
     }
+    .ai-features,
+    .send__parcel{
+        background-color: #f8f8f8;
+    }
+    .our-process,
+    .adamvideo-section{
+        background-color: #fff;
+    }
     .main-banner .main-banner-right h1 {
         font-size: 35px;
         line-height: 1em;
@@ -3743,7 +3745,7 @@ section.send__parcel .cmn-primary-btn {
         font-size: 18px;
     }
     .cta-section{
-        padding: 0 10px;
+        padding: 40px 10px  0 10px;
     }
     .trust-box {
         margin-top: 15px;
@@ -3753,11 +3755,8 @@ section.send__parcel .cmn-primary-btn {
        margin-bottom: 0;
        padding-bottom: 0;
     }
-    .our-process{
-        background-color: #f8f8f8;
-    }
     .reviews{
-        background-color: #fff;
+        background-color: #f8f8f8;
     }
     .app-section .slick-slide img{
         margin: 0 auto;
