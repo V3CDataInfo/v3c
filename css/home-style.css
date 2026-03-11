@@ -1495,6 +1495,7 @@ ul.features-row li .features-title-area {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    height: 100%;
 }
 .masonry-block_ a.view-more:hover {
     background-color: var(--orange-dark);
@@ -1531,8 +1532,8 @@ ul.features-row li .features-title-area {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.masonry ._row_.have_more .masonry-block_:last-child {
-    display: none;
+._row_.have_more > * > img{
+    margin: 0;
 }
 .masonry.open ._row_.have_more .masonry-block_:last-child {
     display: block;
