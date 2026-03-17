@@ -2013,8 +2013,26 @@ color: #FF6E00;
     .wh_image_area {
         text-align: center;
     }
+    .feature-card {
+        padding: 20px;
+        gap: 10px;
+    }
 }
 
+@media (max-width:767px) {
+    .tab-btn {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .tabs {
+        gap: 5px;
+        padding: 0 5px;
+        border: none;
+        box-shadow: 0 -2px 0 0 #e5e5e5 inset;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+}
 @media (max-width:630px) {
     .bn-section h1 {
         font-size: 30px;
@@ -2081,6 +2099,12 @@ color: #FF6E00;
     }
     .webadmin {
         grid-template-columns: 100%;
+    }
+    .icon-container {
+        width: 70px;
+        height: 70px;
+        font-size: 35px;
+        border-radius: 15px;
     }
 }
 
