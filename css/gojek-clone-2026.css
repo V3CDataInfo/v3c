@@ -6205,6 +6205,7 @@ img {
     }
     .script-package-section {
         padding: 35px 0 48px;
+        background-color: #fff;
     }
     .script-package-section ~ .invest-gojek-section {
         margin-top: 0;
@@ -6882,6 +6883,9 @@ img {
     }
     ul.sitemap.advance_component li.full_width .main-cat-block.inverse {
         flex-direction: column-reverse;
+    }
+    .about-section-of{
+        margin-top: 0;
     }
 }
 @media screen and (max-width:480px) {

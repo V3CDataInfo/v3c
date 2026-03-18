@@ -3066,8 +3066,12 @@ ul.reviews-list li.morereview a:after {
   width: 100%;
   margin: 0 auto;
 }
-
-
+.uberclone-vidoe-img::before{
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 56.25%;
+}
 .overview-video-inner {
   margin: 0 auto;
 }
@@ -3085,6 +3089,9 @@ ul.reviews-list li.morereview a:after {
 
 .uberclone-vidoe-img img {
   max-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .uberclone-vidoe-img iframe {
@@ -4900,8 +4907,11 @@ ul.reviews-list li {
     width: -ms-calc((100% - 70px) / 2);
     width: -o-calc((100% - 70px) / 2);
 }
+.download {
+    padding-top: 40px;
+}
 .download-inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
 }
 .script-package-row-flow .catrow .caticonbox strong {
     font-size: 18px;
