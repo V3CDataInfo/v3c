@@ -210,6 +210,10 @@ a:hover {
         -o-transform: scale(1.8);
     }
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 ul.common-listing {
     margin-bottom: 12px;
     flex-direction: column;
@@ -527,18 +531,6 @@ ul.banner_contact-data li:before {
     padding-top: 20px;
     position: relative;
 }
-.banner-left:before {
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top: 100%;
-}
-.banner-left img {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 ul.banner_contact-data li a {
     margin: 0;
     padding: 0;
@@ -613,25 +605,15 @@ ul.quick-links li::before {
 }
 .main-product-clone-row {
     display: grid;
-    grid-template-columns: 1fr 1.1fr;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
     margin: 15px 0 0 0;
 }
 .main-product-clone .main-product-clone-right > a {
     display: block;
     position: relative;
 }
-.main-product-clone .main-product-clone-right > a:before {
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top:78.70%;
-}
-.main-product-clone .main-product-clone-right > a > img {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
+
 .main-product-clone .main-product-clone-right > a > .play-anim-ico {
     position: absolute;
     top: 40%;
@@ -651,12 +633,7 @@ ul.quick-links li::before {
     padding: 0;
     background: linear-gradient(180deg, #f8f8f8 0%, #fff 100%);
 }
-section.gojek-clone-app.reverse .screens_holder {
-    left: auto;
-    right: 20px;
-    display: flex;
-    justify-content: flex-end;
-}
+
 .gojek-clone-app-inner {
     max-width: var(--container-width);
     margin: 0 auto;
@@ -672,7 +649,7 @@ section.gojek-clone-app.reverse .screens_holder {
     padding: 0;
     position: relative;
     z-index: 0;
-    padding: 30px 20px 30px 0;
+    padding: 20px 0 20px 20px;
     justify-content: flex-end;
     width: 45%;
 }
@@ -697,22 +674,9 @@ section.gojek-clone-app.reverse .screens_holder {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.gojek-clone-app-right .screen:first-child {
-    position: relative;
-    width: 45%;
-}
-.gojek-clone-app-right .screen:last-child {
-    position: relative;
-    width: 45%;
-}
-.gojek-clone-app-right .screen::before {
-    content: '';
-    padding-top: 204.74%;
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
+.gojek-clone-app.reverse .gojek-clone-app-right{
+    padding-left: 0;
+    padding-right: 20px;
 }
 .gojek-clone-app-left {
     min-height: 587px;
@@ -725,13 +689,9 @@ section.gojek-clone-app.reverse .screens_holder {
     -webkit-width: calc(55% - 30px);
 }
 .screens_holder {
-    position: absolute;
-    left: 20px;
-    top: 19px;
     width: 100%;
     display: var(--dflex);
     gap: var(--gap20);
-    bottom: 0;
 }
 /* .gojek-clone-app-right img:first-child {
     position: relative;
@@ -752,11 +712,7 @@ section.gojek-clone-app.reverse .screens_holder {
     -ms-border-radius: var(--radius-right);
     -o-border-radius: var(--radius-right);
 }
-.gojek-clone-app.reverse .gojek-clone-app-right {
-    padding: 30px 20px 30px 0;
-    justify-content: flex-end;
-    width: 45%;
-}
+
 .gojek-clone-app.reverse .gojek-clone-app-left {
     width: calc(55% - 30px);
     -o-width: calc(55% - 30px);
@@ -918,17 +874,8 @@ ul.statistics-list li span {
 .no_video .play-anim-ico {
     display: none;
 }
-.client-img1 a:before {
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top: 78.5%;
-}
 .client-img1 img {
     max-width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
     border-radius: var(--radius10);
     -webkit-border-radius: var(--radius10);
     -moz-border-radius: var(--radius10);
@@ -1191,17 +1138,6 @@ ul.features-row li .features-title-area {
 .clients-visitus ul li .clients_image_hold {
     position: relative;
 }
-.clients-visitus ul li .clients_image_hold::before {
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top: 49.5%;
-}
-.clients-visitus ul li .clients_image_hold > img.main_client_img {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 .clients-visitus ul li .video_icon {
     width: 31px;
     height: 31px;
@@ -1312,16 +1248,8 @@ ul.features-row li .features-title-area {
     width: 42vw;
     position: relative;
 }
-.kubinga-image-block::before {
-    content: '';
-    display: block;
-    padding-top: 46%;
-    width: 100%;
-}
+
 .kubinga-image-block img {
-    position: absolute;
-    left: 0;
-    top: 0;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -2049,10 +1977,6 @@ ul.core-values-row li strong {
     .kubinga-image-block {
         width: 100%;
     }
-    section.gojek-clone-app.reverse .screens_holder {
-        left: auto;
-        right: 10px;
-    }
     .gojek-clone-app.reverse .gojek-clone-app-right {
         padding: 20px 10px 20px 0;
     }
@@ -2069,6 +1993,30 @@ ul.core-values-row li strong {
     }
 }
 @media screen and (max-width:1024px) {
+    .common-page-hd {
+        font-size: 35px;
+    }
+    .gojek-clone-app-right {
+        width: 100%;
+        max-width: 630px;
+        margin: auto;
+        padding: 20px;
+    }
+    .screens_holder{
+        justify-content: center;
+    }
+    .gojek-clone-app-left{
+        width: 100% !important;
+        min-height: initial;
+    }
+    .gojek-clone-app-right::after{
+        width: 100%;
+        border-radius: 20px !important;
+        -webkit-border-radius: 20px !important;
+        -moz-border-radius: 20px !important;
+        -ms-border-radius: 20px !important;
+        -o-border-radius: 20px !important;
+}
     .our-process ul {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -2094,16 +2042,11 @@ ul.core-values-row li strong {
     .clients-right {
         width: 100%;
     }
-    .gojek-clone-app .screens_holder {
-        top: 50%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-    }
     .angola-inner {
         align-items: center;
+    }
+    .clients-visitus ul li .big-button .common-btn {
+        font-size: 26px;
     }
 }
 @media screen and (max-width:991px) {
@@ -2114,7 +2057,9 @@ ul.core-values-row li strong {
         gap: 20px;
     }
     .banner-left {
+        max-width: 400px;
         width: 100%;
+        margin: 0 auto;
     }
     .banner_contact {
         display: none;
@@ -2134,18 +2079,6 @@ ul.core-values-row li strong {
     .main-product-clone .main-product-clone-right > a {
         max-width: 647px;
     }
-    .banner-left img {
-        max-width: 400px;
-        margin: 0 auto;
-        display: block;
-    }
-    .banner-left {
-        max-width: 400px;
-    }
-    .banner-left:before {
-        padding-top: 91%;
-    }
-    /******************************/
     /******************************/
     .gojek-clone-app-left,
     .gojek-clone-app-right,
@@ -2153,36 +2086,11 @@ ul.core-values-row li strong {
     .gojek-clone-app.reverse .gojek-clone-app-left {
         width: 100%;
     }
-    .gojek-clone-app-right img:first-child,
-    .gojek-clone-app-right img:last-child {
-        width: auto;
-    }
     .gojek-clone-app.reverse .gojek-clone-app-right {
         padding: 20px;
         justify-content: center;
     }
-    section.gojek-clone-app.reverse .screens_holder {
-        top: 18px;
-        left: 0;
-        right: auto;
-        transform: none ;
-        -webkit-transform: none ;
-        -moz-transform: none ;
-        -ms-transform: none ;
-        -o-transform: none ;
-    }
-    section.gojek-clone-app.reverse .screens_holder {
-        justify-content: center;
-    }
-    .gojek-clone-app .screens_holder {
-        top: 18px;
-        transform: none;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-        left: 25px;
-    }
+
     .gojek-clone-app-right::after,
     .gojek-clone-app.reverse .gojek-clone-app-right::after {
         width: 100%;
@@ -2215,26 +2123,16 @@ ul.core-values-row li strong {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-    .apps-launched img {
-        max-width: 357px;
-    }
     .apps-launched-left {
         text-align: center;
     }
     .apps-launched-left img {
         vertical-align: top;
     }
-    .gojek-clone-app-right .screen {
-        max-width: 300px;
-        height: 615px;
-        top: auto !important;
-        bottom: auto !important;
-    }
-    .gojek-clone-app-right:before {
-        content: '';
-        display: block;
-        width: 100%;
-        padding-top: 100%;
+    .launching-inner {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
     }
     /***************************/
     .main-product-clone-row {
@@ -2392,15 +2290,22 @@ ul.core-values-row li strong {
         font-size: 30px;
         padding: 30px;
     }
+    .faq ul {
+        grid-template-columns: 100%;
+    }
 }
 @media screen and (max-width:767px) {
     .banner-section h1 + strong {
         font-size: 24px;
     }
     .banner-section h1 {
-        font-size: 37px;
+        font-size: 32px;
     }
     .banner-section strong {
+        font-size: 24px;
+    }
+    .banner-section h1 strong {
+        line-height: 1em;
         font-size: 26px;
     }
     .our-products-section ul {
@@ -2496,13 +2401,7 @@ ul.core-values-row li strong {
         background-color: transparent;
         text-align: center;
     }
-    .screens_holder, section.gojek-clone-app.reverse .screens_holder {
-        position: relative;
-        top: auto;
-        left: 0;
-        display: inline-block;
-        width: 300px;
-    }
+
     .gojek-clone-app-right:before {
         display: none;
     }
@@ -2559,6 +2458,12 @@ ul.core-values-row li strong {
     ul.common-listing.grid {
         grid-template-columns: 1fr;
     }
+    .common-page-hd {
+        font-size: 27px;
+    }
+    .common-page-hd ~ strong, .common-page-hd span {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width:360px) {
     ul.statistics-list li strong {
@@ -2574,6 +2479,9 @@ ul.core-values-row li strong {
     }
     .inq_form_row {
         overflow: hidden;
+    }
+    .our-products-section ul {
+        gap: 10px;
     }
 }
 
