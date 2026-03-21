@@ -14,7 +14,7 @@
     --font-medium: 500;
     --font-semibold: 600;
     --font-bold: 700;
-    --section-padding: 70px 0 0 0;
+    --section-padding: 55px 0 0 0;
     --container: 1310px;
     --container-padding: 0 15px;
 }
@@ -639,7 +639,7 @@ img {
     text-align: center;
 }
 .heading-style {
-    font-size: 52px;
+    font-size: 40px;
     line-height: 1em;
     font-weight: bold;
     margin-bottom: 10px;
@@ -1441,7 +1441,7 @@ ul.page-listview-area li a:hover {
     width: -webkit-calc(33.33% - 10px)
 }
 .client-photos {
-    padding: 70px 0 28px 0;
+    padding: 55px 0 28px 0;
 }
 .client-photos .common-button {
     margin: 0 0 0 0
@@ -2043,7 +2043,7 @@ strong.sub__title {
 }
 /* ----------------------------------------------------- */
 .theme {
-    padding: 70px 0 40px 0;
+    padding: 55px 0 40px 0;
 }
 .theme-inner {
     max-width: var(--container);
@@ -2864,6 +2864,9 @@ strong.sub__title {
     }
 }
 @media screen and (max-width:630px) {
+        :root {
+        --section-padding: 40px 0 0 0;
+    }
     .overview-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -2875,6 +2878,13 @@ strong.sub__title {
     }
     .stat-box {
         padding: 20px 15px;
+    }
+    /****************************************/
+    .screens-column.image-column{
+        grid-template-columns: 100%;
+    }
+    .screens-column.image-column img{
+        margin: auto;
     }
     /****************************************/
     .features ul {
@@ -2921,10 +2931,15 @@ strong.sub__title {
         padding: 8px;
         font-size: 15px;
     }
+    .mobile_apps h3 {
+        font-size: 23px;
+        margin: 0 0 10px;
+    }
     /*******************************/
     .products ul li {
         width: 100%;
     }
+
     /*******************************/
     .testimonial-section-row-flow ul {
         grid-template-columns: repeat(4, 1fr);
