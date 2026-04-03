@@ -6132,6 +6132,11 @@ img {
     ul.sitemap.advance_component li:nth-last-child(-n+2) {
         grid-column: span 2;
     }
+    .flow-video-section .video-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .flow-video-section .video-main .video-box:last-child {display: grid;grid-template-columns: 298px auto;gap: 20px;}
 }
 @media screen and (max-width: 991px) {
     .banner-section.mainbanner {
@@ -6205,11 +6210,6 @@ img {
     }
     .script-package-section {
         padding: 35px 0 48px;
-        background-color: #fff;
-    }
-    .script-package-section ~ .invest-gojek-section {
-        margin-top: 0;
-        background-color: #fff;
     }
     .flow-video-section ~ .services-banner {
         padding: 40px 0;
@@ -6361,7 +6361,7 @@ img {
         flex-wrap: wrap;
     }
     .masonry-block_ a.view-more > span {
-        font-size: 20px;
+        font-size: 6vw;
     }
     .video-left {
         width: 100%;
@@ -6566,7 +6566,9 @@ img {
         background-color: #e5faf7;
         text-align: center;
     }
-
+    .unlimited-services.forservices {
+        padding-top: 50px;
+    }
 }
 @media screen and (max-width:767px) {
     .gojek-header-inner {
@@ -6641,26 +6643,13 @@ img {
     .features-box ul li,
     .inq_form .box-shadow ul li,
     .features-2022-text-caption {
-        width: calc(100% - 0px);
-        width: -o-calc(100% - 0px);
-        width: -ms-calc(100% - 0px);
-        width: -moz-calc(100% - 0px);
-        width: -webkit-calc(100% - 0px);
+        width: 100%;
     }
     .features-box ul li:nth-last-child(2) {
-        width: calc(100% - 0px);
-        width: -o-calc(100% - 0px);
-        width: -ms-calc(100% - 0px);
-        width: -moz-calc(100% - 0px);
-        width: -webkit-calc(100% - 0px);
-        margin-bottom: 15px;
+        width: 100%;
     }
     .features-box ul li:nth-last-child(1) {
-        width: calc(100% - 0px);
-        width: -o-calc(100% - 0px);
-        width: -ms-calc(100% - 0px);
-        width: -moz-calc(100% - 0px);
-        width: -webkit-calc(100% - 0px);
+        width: 100%;
     }
     .services-tabs_content ul li,
     .services-tabs_content ul.havefive li,
@@ -6697,7 +6686,7 @@ img {
         padding: 8px 28px;
     }
     .single-video .right-part .text-caption {
-        margin: 30px 0 0 0;
+        margin: 20px 0 0 0;
         padding: 20px;
     }
     .video-block:after {
@@ -6760,7 +6749,9 @@ img {
         width: -moz-calc(100% - 70PX);
         width: -o-calc(100% - 70PX);
     }
-
+    [class*="col-"].masonry-block_ {
+        width: 100%;
+    }
 }
 @media screen and (max-width:630px) {
     .banner-description-top .right-caption .banner-btn a:nth-child(1),
@@ -6799,6 +6790,9 @@ img {
     .heading-area .head-style, .shark-package .heading-area .head-style {
         margin-bottom: 10px;
         font-size: 29px;
+    }
+    .vietnam-caption .heading-area .head-style {
+        font-size: 29px !important;
     }
     .kubinga .video-icon {
         left: 34%;
@@ -6886,6 +6880,24 @@ img {
     }
     .about-section-of{
         margin-top: 0;
+    }
+    .testimonial-thumb {
+        font-size: 6vw;
+    }
+    .testimonial-section-row-flow {
+        display: block;
+    }
+    .vietnam-caption p {
+        text-align: justify;
+    }
+   .flow-video-section .video-main .video-box {
+        grid-template-columns: 100% !important;
+    }
+    .video-block img {
+        width: 100%;
+    }
+    .invest-gojek-section p {
+        text-align: justify;
     }
 }
 @media screen and (max-width:480px) {
