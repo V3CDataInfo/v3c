@@ -939,7 +939,7 @@ span.smallspace {
     text-align: left;
 }
 .banner-description-top .left-caption .heading span {
-    font-size: 70px;
+    font-size: 46px;
     font-weight: 800;
     line-height: 1em;
     color: var(--theme);
@@ -2385,10 +2385,6 @@ ul.services-tabs li img {
     font-size: 70px;
     color: #fff;
 }
-.vietnam-section.kubinga {
-    padding: 40px 0 0 0;
-    background-color: #fff;
-}
 .vietnam-inner {
     -ms-flex-align: center !important;
     align-items: center !important;
@@ -2441,7 +2437,6 @@ ul.services-tabs li img {
 .script-package-section {
     padding: 40px 0;
     position: relative;
-    background-color: #f8f8f8;
 }
 .script-package-section .button-btn {
     gap: 10px;
@@ -3389,6 +3384,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p{
 .gojekclone-video-section {
     position: relative;
     padding: 40px 0 40px;
+    background-color: #f8f8f8;
 }
 .gojekclone-video-section-inner {
     max-width: var(--container-width);
@@ -5737,6 +5733,430 @@ img {
 }
 
 /****************************************/
+/* ---------------------------------------------- */
+.ai-features{
+    padding: 40px 0;
+}
+.ai-features-inner {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.ai-features-row > ul {
+    display: grid;
+    gap: 15px;
+}
+.ai-features-row > ul > li {
+    background-color: #fff;
+    padding: 14px 20px;
+    text-align: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ai-features ul.page-listview-area li {
+    color: #fff;
+    background-image: url(../images/uber-clone-taxicube/list-arrow_white.svg);
+}
+.ai-features-row {
+    display: grid;
+    grid-template-columns: 350px auto;
+    gap: 30px;
+}
+.ai-features-data-holder {
+    padding: 30px;
+    background: linear-gradient(180deg, #FCAF3E 0%, #FFB851 100%);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.ai-feature-image {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ai-features-content {
+    display: none;
+    grid-template-columns: 230px auto;
+    gap: 20px;
+    align-items: flex-start;
+}
+.ai-features-content img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: auto;
+}
+.ai-features-content.active {
+    display: grid;
+}
+.ai-features-content p {
+    color: #fff;
+}
+.ai-features-content strong {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 10px 0;
+}
+.ai-features ul li.active {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px var(--primary) inset;
+}
+
+
+
+
+/* Grid */
+  .ai-features .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 14px;
+    margin-bottom: 15px;
+  }
+
+.ai-features .card {
+    border-radius: 20px;
+    padding: 23px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.ai-features .image__box {
+    display: block;
+    text-align: right;
+    margin: -112px -24px -24px -24px;
+}
+  .ai-features .image__box img{
+    vertical-align: top;
+    max-width: 100%;
+}
+  .ai-features .card:hover {
+    transform: translateY(-4px);
+  }
+
+  .card-icon{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    align-items: center;
+  }
+
+.ai-features .card-icon i {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-size: 40px;
+}
+.ai-features .card strong {
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+.ai-features .button-btn {
+    display: block;
+}
+.ai-features .common-btn {
+    padding: 10px 15px;
+    min-height: initial;
+    font-size: 16px;
+    gap: 10px;
+}
+.ai-features .common-btn:not(:last-child){
+    margin-bottom: 10px;
+}
+  /* Card sizes */
+  .ai-features .card-2x2 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .ai-features .card-2x1 {
+    grid-column: span 2;
+  }
+
+  .ai-features .card-1x1 {
+    grid-column: span 1;
+  }
+
+  /* Card colors */
+ .ai-features .card-blue {
+  background: #f8faff;
+}
+
+.ai-features .card-teal {
+  background: #f7fdfb;
+}
+
+.ai-features .card-amber {
+  background: #fffef8;
+}
+
+.ai-features .card-purple {
+  background: #fcfaff;
+}
+
+.ai-features .card-pink {
+  background: #f8f5f7;
+}
+
+.ai-features .card-indigo {
+  background: #f9f9ff;
+}
+
+.ai-features .card-slate {
+  background: #f8feff;
+}
+
+.ai-features .card-rose {
+  background: #fdf9f9;
+}
+
+  .ai-features .icon-blue {
+    background: #dce8ff;
+  }
+
+  .ai-features .icon-teal {
+    background: #c9eede;
+  }
+
+  .ai-features .icon-amber {
+    background: #fde9b2;
+  }
+
+  .ai-features .icon-purple {
+    background: #e4d2f8;
+  }
+
+.ai-features  .icon-pink {
+    background: #fdd4e4;
+  }
+
+  .ai-features .icon-indigo {
+    background: #d8d8f8;
+  }
+
+  .ai-features .icon-slate {
+    background: #D6F7FB;
+  }
+
+  .ai-features .icon-rose {
+    background: #fcd4d4;
+  }
+
+  /* Price display */
+.ai-features  .price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+    padding-top: 20px;
+  }
+
+  .ai-features .price-big {
+    font-size: 28px;
+    font-weight: 500;
+    color: #b45a00;
+    letter-spacing: -1px;
+  }
+
+  .ai-features .weather-icons {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+
+  /* Fare ring */
+  .ai-features .fare-ring-wrap {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Bar chart */
+  .ai-features .bar-chart {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+    height: 52px;
+    margin-top: auto;
+    padding-top: 16px;
+  }
+
+  .ai-features .bar {
+    flex: 1;
+    border-radius: 4px 4px 0 0;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+}
+
+  /* Stars */
+  .ai-features .stars {
+    display: flex;
+    gap: 3px;
+    margin-top: auto;
+    padding-top: 16px;
+  }
+
+.ai-features  .star {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Route line */
+  .ai-features .route-visual {
+    margin-top: 16px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    height: 64px;
+  }
+
+   /* Voice bars */
+  .ai-features .voice-bars {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin-top: auto;
+  }
+
+  .ai-features .vbar {
+    width: 4px;
+    background: #e87070;
+    border-radius: 2px;
+    transition: height 0.3s ease;
+  }
+
+  /* AI fare card */
+  .ai-features .fare-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .ai-features .fare-text {
+    flex: 1;
+  }
+
+  .ai-features .fare-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #8a2ab9;
+    box-shadow: 0 0 0 8px rgba(138, 42, 185, 0.08);
+    flex-shrink: 0;
+    margin-left: 24px;
+  }
+.ai-features a.ai__features {
+    display: block;
+    cursor: pointer;
+    background-color: var(--theme);
+    position: relative;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    min-height: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.ai-features a.ai__features:hover {
+    background-color: var(--theme-dark);
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+}
+.ai-features a.ai__features:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    pointer-events: none;
+
+}
+/* ---------------------------------------------- */
+/****************************************/
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.25) and (max-width:1680px) {
     ul.services-tabs {
@@ -5873,16 +6293,6 @@ img {
         font-size: 29px;
         line-height: 30px;
         position: relative;
-    }
-    .banner-description-top .left-caption .heading span {
-        font-size: 60px;
-    }
-    .banner-description-top .left-caption .heading span {
-        font-size: 75px;
-        color: var(--theme);
-        margin-top: 0;
-        letter-spacing: 15px;
-        padding-left: 0px;
     }
     .king-icon {
         right: -25px;
@@ -6068,13 +6478,7 @@ img {
     .banner-description-top .left-caption .haiding {
         display: block;
     }
-    .banner-description-top .left-caption .heading span {
-        display: block;
-        margin: 0 0 0 0;
-        width: auto;
-        letter-spacing: 0;
-        margin-bottom: 20px;
-    }
+
     .banner-section-inner{
         padding: 0 15px;
     }
@@ -6137,6 +6541,9 @@ img {
         flex-direction: column;
     }
     .flow-video-section .video-main .video-box:last-child {display: grid;grid-template-columns: 298px auto;gap: 20px;}
+    .ai-features .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
 }
 @media screen and (max-width: 991px) {
     .banner-section.mainbanner {
@@ -6326,9 +6733,13 @@ img {
         margin-bottom: 0px;
     }
     .vietnam-section .video-icon a {
-        width: 50px;
-        height: 50px;
-    }
+    width: 50px;
+    height: 50px;
+    scale: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
     .services-banner-design {
         background-image: none !important;
     }
@@ -6569,6 +6980,9 @@ img {
     .unlimited-services.forservices {
         padding-top: 50px;
     }
+    .ai-features .grid {
+    grid-template-columns: repeat(2, 1fr);
+}
 }
 @media screen and (max-width:767px) {
     .gojek-header-inner {
@@ -6725,8 +7139,10 @@ img {
         font-size: 2.6vw;
     }
     .flutter-tech ._TABLE_ ._TD_ {
-        padding: 1.2vw;
+        padding: 1.2vw !important;
         font-size: 1.6vw;
+        line-height: normal;
+        text-align: left;
     }
     .flutter-tech ._TABLE_ p {
         font-size: 1.6vw;
@@ -6899,6 +7315,16 @@ img {
     .invest-gojek-section p {
         text-align: justify;
     }
+    .banner-section{
+        padding-top: 40px;
+    }
+    .ai-features .grid {
+    grid-template-columns: 100%;
+}
+.ai-features .card-2x2 {
+    grid-column: auto;
+    grid-row: auto;
+}
 }
 @media screen and (max-width:480px) {
     .features-2022-text-caption ul li .caption {
