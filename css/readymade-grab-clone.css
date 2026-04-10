@@ -4705,6 +4705,9 @@ ul.reviews-list li.morereview a:after {
         font-size: 25px;
         display: inline-block;
     }
+    .ai-features .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (max-width: 991px) {
@@ -5008,6 +5011,9 @@ ul.reviews-list li.morereview a:after {
 .website-sneak ul {
     grid-template-columns: 1fr;
 }
+.ai-features .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -5339,6 +5345,7 @@ ul.subcat-listing li {
     }
     .services-banner{
        margin-bottom: 0;
+       padding-top: 0;
     }
     .our-process{
         background-color: #f8f8f8;
@@ -5420,6 +5427,13 @@ ul.subcat-listing li {
         height: 40px;
         width: 40px;
     }
+    .ai-features .grid {
+        grid-template-columns: 100%;
+    }
+    .ai-features .card-2x2 {
+    grid-column: auto;
+    grid-row: auto;
+}
 }
 
 .custom-popupbox .close_btn{

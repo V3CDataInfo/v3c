@@ -2050,7 +2050,6 @@ ul.statistics-list li i {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 14px;
-    margin-bottom: 15px;
 }
 
 .ai-features .card {
@@ -2292,7 +2291,6 @@ ul.statistics-list li i {
 /**************************************/
 .adamvideo-section {
     padding: 40px 0;
-    background-color: #f9fafb;
 }
 .adamvideo-section-inner {
     max-width: 1310px;
@@ -2696,7 +2694,7 @@ ul.statistics-list li i {
 }
 /**************************************/
 .reviews{
-    padding: 40px 0 0 0;
+    padding-bottom: 0;
 }
 .reviews-inner {
     max-width: 1310px;
@@ -3014,7 +3012,7 @@ ul.reviews-list li.morereview a:after {
 }
 /******************************************/
 .our-process {
-    padding: 40px 0;
+    background-color: #f8f8f8;
 }
 .our-process-inner {
     padding: 0 15px;
@@ -3355,7 +3353,7 @@ ul.reviews-list li.morereview a:after {
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 .send__parcel {
-    padding: 0px 0 40px 0;
+    background-color: #f8f8f8;
 }
 .parcel-inner {
     border: 1px solid #ddd;
@@ -3653,6 +3651,9 @@ section.send__parcel .cmn-primary-btn {
     .send__parcel .parcel-content {
         width: 100%;
     }
+    .ai-features .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media (max-width: 991px) {
     .heading-area h3,
@@ -3836,6 +3837,10 @@ section.send__parcel .cmn-primary-btn {
        .adamvideo-section .flow-row {
         grid-template-columns: 1fr 1fr;
     }
+    .ai-features .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 @media screen and (max-width: 767px) {
     p {
@@ -3983,11 +3988,9 @@ section.send__parcel .cmn-primary-btn {
     .mainWrapper>* {
         padding: 40px 0;
     }
-    .ai-features,
     .send__parcel{
         background-color: #f8f8f8;
     }
-    .our-process,
     .adamvideo-section{
         background-color: #fff;
     }
@@ -4064,9 +4067,7 @@ section.send__parcel .cmn-primary-btn {
     .screens ul {
         grid-template-columns: 1fr 1fr;
     }
-    .ai-features ul {
-        grid-template-columns: 1fr;
-    }
+
     .usp-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -4095,22 +4096,29 @@ section.send__parcel .cmn-primary-btn {
         font-size: 18px;
     }
     .cta-section{
-        padding: 40px 10px  0 10px;
+        padding: 0 15px;
     }
     .trust-box {
         margin-top: 15px;
         padding-top: 15px;
     }
     .services-banner{
-       margin-bottom: 0;
-       padding-bottom: 0;
-    }
-    .reviews{
-        background-color: #f8f8f8;
+        padding: 0;
+        margin: 0;
     }
     .app-section .slick-slide img{
         margin: 0 auto;
     }
+    .ai-features .grid {
+        grid-template-columns: 100%;
+    }
+    .ai-features .card-2x2 {
+    grid-column: auto;
+    grid-row: auto;
+}
+.services-card strong {
+    font-size: 18px;
+}
 }
 @media screen and (max-width:480px) {
     .heading .heading-style {
