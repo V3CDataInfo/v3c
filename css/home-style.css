@@ -384,21 +384,6 @@ ul.common-listing li:before {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
-.common-page-hd strong {
-    font-size: 22px;
-    display: block;
-    position: relative;
-    text-transform: uppercase;
-}
-.common-page-hd strong:before {
-    content: '';
-    display: inline-block;
-    width: 40px;
-    height: 2px;
-    background: #000;
-    vertical-align: middle;
-    margin-right: 10px;
-}
 .common-page-hd span::before {
     content: '';
     display: block;
@@ -408,6 +393,14 @@ ul.common-listing li:before {
     left: 0;
     top: 0;
     background-image: url(../images/home-page/sep.png);
+}
+.common-page-hd.have_aipowered {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.common-page-hd.have_aipowered strong.dp__green {
+    border-color: #8cdca9;
 }
 .common-page-hd.orange_white_sep span::before {
     background-image: url(../images/home-page/sep-orange-white.png);
