@@ -98,6 +98,23 @@ a {
 a:hover {
     color: #363636;
 }
+.ai-badge {
+    font-size: 10px;
+    line-height: 1em;
+    padding: 7px 9px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 1px solid #a3dcb8;
+    text-align: center;
+    display: inline-block;
+    color: #009500;
+    background-color: #f0fdf4;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 .button-block.d-flex {
     display: flex;
     gap: 10px;
@@ -398,6 +415,7 @@ ul.common-listing li:before {
     display: flex;
     align-items: center;
     gap: 7px;
+    flex-wrap: wrap;
 }
 .common-page-hd.have_aipowered strong.dp__green {
     border-color: #8cdca9;
