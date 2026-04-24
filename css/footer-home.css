@@ -293,6 +293,10 @@ ul.call-data {
 }
 
 /* _______________________________ NEW FOOTER 2026 _______________________________ */
+.footer-home-changes-2026 p {
+  font-size: 15px;
+  line-height: 21px;
+}
 
 .footer-home-changes-2026 .footerlinks-row {
   display: grid;
@@ -314,6 +318,7 @@ ul.call-data {
 
 .footer-home-changes-2026 .copyright {
   margin-top: 8px;
+  font-size: 15px;
 }
 
 .footer-home-changes-2026 .footer-details .footer-infotxt p {
@@ -323,6 +328,13 @@ ul.call-data {
 
 .footer-home-changes-2026 .social_media {
   margin-bottom: 15px;
+}
+
+.footer-home-changes-2026 .footer-infotxt {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 @media screen and (max-width:1279px) {
