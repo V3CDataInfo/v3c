@@ -13,6 +13,7 @@
 
 .footer-details {
   padding: 50px 0 20px 0;
+  text-align: left;
   background-color: var(--main-light);
 }
 
@@ -83,6 +84,7 @@
   color: #000;
   margin-top: -5px;
   line-height: 23px;
+  font-style: normal;
 }
 
 .footer-details ul.page-listview-area.grid_2 {
@@ -91,6 +93,12 @@
 
 .footer-details ul.page-listview-area.grid_4 {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-details ul.page-listview-area.flex_area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer .container {
@@ -257,6 +265,7 @@ ul.call-data {
 
 .contact-data-block .email {
   font-size: 16px;
+  color: var(--main);
 }
 
 .social_media {
@@ -290,6 +299,12 @@ ul.call-data {
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 5px;
+}
+
+.footer .footer_container {
+  max-width: 1310px;
+  margin: auto;
+  padding: 0 15px;
 }
 
 /* _______________________________ NEW FOOTER 2026 _______________________________ */
