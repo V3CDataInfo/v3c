@@ -99,6 +99,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-weight: 400;
 }
 
 .footer .container {
@@ -257,7 +258,9 @@ ul.call-data li small {
   font-weight: 300;
   display: inline-block;
 }
-
+ul.call-data li a:hover {
+  color: var(--main);
+}
 ul.call-data {
   display: grid;
   gap: 5px;
@@ -311,6 +314,7 @@ ul.call-data {
 .footer-home-changes-2026 p {
   font-size: 15px;
   line-height: 21px;
+  font-weight: 400;
 }
 
 .footer-home-changes-2026 .footerlinks-row {
