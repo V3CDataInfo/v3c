@@ -251,6 +251,10 @@ ul.call-data li {
   font-weight: 500;
 }
 
+ul.call-data li a {
+  color: var(--main);
+}
+
 ul.call-data li small {
   font-size: 13px;
   color: #a0a0a0;
@@ -258,9 +262,11 @@ ul.call-data li small {
   font-weight: 300;
   display: inline-block;
 }
+
 ul.call-data li a:hover {
   color: var(--main);
 }
+
 ul.call-data {
   display: grid;
   gap: 5px;
