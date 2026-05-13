@@ -476,5 +476,13 @@ ul.call-data {
     margin-bottom: 0;
   }
 
+  .quicklink-address~.inner-hd {
+    margin-top: 10px;
+  }
 
+  .quicklink-address~.footer-link-txt {
+    display: block;
+    max-height: inherit;
+    margin-bottom: 10px;
+  }
 }
