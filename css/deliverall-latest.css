@@ -2401,6 +2401,7 @@ ul.reviews-list li.morereview a:after {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    font-family:'Exo 2';
 }
 
 .inq_form form input:hover[type=submit] {
@@ -2482,19 +2483,15 @@ ul.reviews-list li.morereview a:after {
 
 .inq_form .input-row-flow {
     margin-bottom: 16px;
-    width: calc(50% - 10px);
-    width: -o-calc(50% - 10px);
-    width: -ms-calc(50% - 10px);
-    width: -moz-calc(50% - 10px);
-    width: -webkit-calc(50% - 10px);
+    width: calc(50% - 8px);
+    width: -o-calc(50% - 8px);
+    width: -ms-calc(50% - 8px);
+    width: -moz-calc(50% - 8px);
+    width: -webkit-calc(50% - 8px);
 }
 
-.inq_form .input-row-flow:last-child {
-    width: calc(100% - 0px);
-    width: -o-calc(100% - 0px);
-    width: -ms-calc(100% - 0px);
-    width: -moz-calc(100% - 0px);
-    width: -webkit-calc(100% - 0px);
+.inq_form .input-row-flow:nth-last-child(-n + 2) {
+    width: 100%;
 }
 
 .inq_form .input-row-flow .g-recaptcha {
