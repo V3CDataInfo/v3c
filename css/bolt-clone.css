@@ -1763,7 +1763,7 @@ ul.reviews-list li:not(:last-child) a:before {
 }
 ul.reviews-list li a::after {
     content: '';
-    background-image: url(../images/bolt-clone/play-video.svg);
+    background-image: url(../images/bolt-clone/play-button.svg);
     position: absolute;
     right: 10px;
     top: 10px;
@@ -2024,3 +2024,9 @@ ul.reviews-list li.morereview a:after {
         grid-template-columns: 100%;
     }
 }
+
+
+
+
+
+
