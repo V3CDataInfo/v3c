@@ -690,7 +690,8 @@ a.btn-color1:hover {
     background: var(--theme);
 }
 
-.demo-banner h1 {
+.demo-banner h1,
+.demo-banner h2 {
     font-family: var(--common-font);
     font-weight: 700;
     font-size: 32px;
@@ -699,7 +700,8 @@ a.btn-color1:hover {
     letter-spacing: -0.01em;
 }
 
-.demo-banner h1 .accent {
+.demo-banner h1 .accent,
+.demo-banner h2 .accent {
     color: #FFFFFF;
     background: var(--theme);
     padding: 0 8px;
@@ -905,6 +907,7 @@ a.btn-color1:hover {
     border-radius: 12px;
     padding: 20px;
     background-color: var(--theme-medium);
+    max-width: 100%;
 }
 
 .tab__content {
@@ -1452,6 +1455,7 @@ a.btn-color1:hover {
     -moz-border-radius: 12px 12px 0 0;
     -ms-border-radius: 12px 12px 0 0;
     -o-border-radius: 12px 12px 0 0;
+    color: #000;
 }
 .faq_list li p {
     padding: 0 20px;
@@ -1901,9 +1905,13 @@ ul.reviews-list li.morereview a:after {
     }
 
     .TABROW {
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
-
+    .TABROW .TAB {
+        width: auto;
+    }
     .package-column {
         width: calc(50% - 20px);
         width: -o-calc(50% - 20px);
@@ -1950,7 +1958,7 @@ ul.reviews-list li.morereview a:after {
     .demo-banner { flex-direction: column; align-items: flex-start; padding: 32px 26px; }
     .demo-banner .actions { align-items: flex-start; width: 100%; }
     .demo-banner .btn { width: 100%; justify-content: center; }
-    .demo-banner h1 { font-size: 26px; }
+    .demo-banner h1,.demo-banner h2 { font-size: 26px; }
     [class*="col-"].masonry-block_ {
         width: 100%;
     }
