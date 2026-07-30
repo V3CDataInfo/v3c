@@ -77,7 +77,7 @@ p {
     font-size: 16px;
     margin: 0 0 10px 0;
     color: #000;
-    font-weight: 400;
+    font-weight: 500;
 }
 p:last-child {
     margin-bottom: 0;
@@ -114,10 +114,10 @@ a{
 }
 .common-btn {
     background-color: var(--theme);
-    font-size: 20px;
+    font-size: 19px;
     text-transform: initial;
-    font-weight: 600;
-    padding: 10px 15px 13px 12px;
+    font-weight: 700;
+    padding: 10px 15px 10px 12px;
     color: #fff;
     display: inline-flex;
     flex-wrap: wrap;
@@ -134,12 +134,10 @@ a{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.common-btn img {
+.common-btn i {
     width: 20px;
     height: 20px;
-    margin-top: 1px;
-    font-size: 0;
-    display: inline-block;
+    font-size: 20px;
 }
 .common-btn:hover {
     background-color: var(--theme-hover);
@@ -197,8 +195,8 @@ a.btn-color1:hover {
 .heading-area h3,
 .heading-area h4,
 .heading-area h5 {
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 34px;
+    font-weight: 800;
     margin: -8px 0 6px 0;
     color: #000;
     text-transform: uppercase;
@@ -211,6 +209,9 @@ a.btn-color1:hover {
 .heading-area.white h5 {
     color: #fff;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--common-font), sans-serif;
+}
 /************************************/
 .banner{
     background:linear-gradient(120deg, #edf8ff, #f4f0ff);
@@ -222,7 +223,7 @@ a.btn-color1:hover {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 800;
     line-height: 1em;
     color: #000;
     font-size: 40px;
@@ -230,13 +231,12 @@ a.btn-color1:hover {
 }
 .banner h1 strong {
     color: var(--theme);
-    /* display: block; */
-    font-weight: bold;
     display: block;
+    font-weight: inherit;
 }
 .banner b {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 800;
     display: block;
     margin-bottom: 8px;
     text-transform: capitalize;
@@ -442,7 +442,7 @@ a.btn-color1:hover {
     text-transform: capitalize;
     font-size: 18px;
     color: #000;
-    font-weight: 600;
+    font-weight: bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -501,6 +501,7 @@ a.btn-color1:hover {
     text-transform: capitalize;
     line-height: 1em;
     margin: 0 0 10px;
+    font-weight: 800;
 }
 .services ul li i {
     font-size: 55px;
@@ -663,6 +664,9 @@ a.btn-color1:hover {
     position: relative;
     font-size: 16px;
     padding: 0 0 0 30px;
+}
+.howitworks ul li strong {
+    font-weight: 800;
 }
 .howitworks ul li:last-child {
     margin-bottom: 0;
@@ -971,12 +975,12 @@ a.btn-color1:hover {
     color: #000;
 }
 .advanced ul li strong {
-    display: block;
-    font-weight: 600;
+    font-weight: bold;
     display: block;
     font-size: 16px;
     color: #000;
     text-align: center;
+    line-height: 1.2em;
 }
 .advanced ul li strong img {
     vertical-align: middle;
@@ -984,8 +988,8 @@ a.btn-color1:hover {
 .advanced .TABROW .TAB {
     border-radius: 0;
     color: #4a4a4a;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 15px;
     position: relative;
     margin: 0;
     border-radius:12px;
@@ -1042,10 +1046,10 @@ a.btn-color1:hover {
     margin: 0 0 20px;
 }
 .ad__heading{
-    font-size: 26px;
+    font-size: 25px;
     color: #000;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 800;
     display: block;
 }
 .ad__heading__area p{
@@ -1078,9 +1082,9 @@ a.btn-color1:hover {
 .pricing .get-quote {
     font-size: 20px;
     background-color: var(--theme);
-    font-weight: 600;
+    font-weight: bold;
     color: #ffffff;
-    padding: 14px 20px 17px 20px;
+    padding: 14px 20px 14px 20px;
     min-width: 264px;
     box-sizing: border-box;
     display: inline-block;
@@ -1189,7 +1193,7 @@ a.btn-color1:hover {
 .reviews ul li.morereview a {
     min-height: 100%;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 800;
     line-height: 34px;
     text-transform: uppercase;
     display: flex;
@@ -1671,7 +1675,7 @@ a.btn-color1:hover {
     background: #fff;
 }
 .faq_list li strong {
-    font-size: 20px;
+    font-size: 19px;
     line-height: normal;
     display: block;
     margin: 0 0 10px 0;
@@ -1683,6 +1687,7 @@ a.btn-color1:hover {
     -moz-border-radius: 12px 12px 0 0;
     -ms-border-radius: 12px 12px 0 0;
     -o-border-radius: 12px 12px 0 0;
+    font-weight: 800;
 }
 .faq_list li p {
     padding: 0 20px;
@@ -1703,7 +1708,7 @@ a.btn-color1:hover {
 .inq_form form input[type=submit] {
     color: #fff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     padding: 8px 15px;
     background-color: var(--theme);
     width: auto;
@@ -1723,7 +1728,7 @@ a.btn-color1:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    font-family: 'Exo 2';
+    font-family: var(--common-font);
 }
 .inq_form form input:hover[type=submit] {
     background-color: var(--theme-hover);
@@ -1731,7 +1736,7 @@ a.btn-color1:hover {
 .inq_form .head-style {
     display: block;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--theme);
 }
 /*.inq_form .head-style:after {
@@ -1830,6 +1835,7 @@ a.btn-color1:hover {
     -webkit-appearance: none;
     appearance: none;
     width: 100%;
+    font-weight: 500;
 }
 .inq_form .text-center {
     text-align: center;
@@ -1926,7 +1932,7 @@ a.btn-color1:hover {
 .AP__FET .title-and-icon strong {
     font-size: 20px;
     color: #000;
-    font-weight: bold;
+    font-weight: 800;
     display: block;
     line-height: 1em;
     text-transform: capitalize;
