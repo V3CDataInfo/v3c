@@ -34,7 +34,7 @@ a:visited {
 .title-style {
     font-size: 31px;
     font-weight: 700;
-    margin: -7px 0 20px 0;
+    margin: -7px 0 10px 0;
     color: #01835d;
     text-transform: uppercase;
     display: inline-block;
@@ -644,17 +644,6 @@ ul.payment-logos ul li:before {
     position: relative;
 }
 
-.client-revies-section-left:before {
-    content: '';
-    width: 50vw;
-    position: absolute;
-    right: 96px;
-    top: -28px;
-    background-image: url(../images/south-africa/bg-pattern1.png);
-    z-index: -1;
-    bottom: 18px;
-}
-
 img {
     max-width: 100%;
 }
@@ -707,7 +696,7 @@ img {
 }
 
 .big-testimonial {
-    height: 367px;
+    height: 417px;
     display: flex;
     align-items: center;
     justify-content: center;
