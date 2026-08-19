@@ -1706,6 +1706,7 @@ header .logo img {
   .h_color {
     color: #FF6E00;
     font-size: 27px;
+    font-family: "Nunito Sans",sans-serif;
   }
   .dropdown-right {
     background: #f0f9ff;
@@ -2805,6 +2806,7 @@ textarea:focus {
     font-weight: bold;
     color: #0a8d2c;
     background-color: #e3f6e6;
+    font-family: "Nunito Sans",sans-serif;
 }
 .mega_menu__badgeDot {
   width: 10px;
@@ -3351,6 +3353,7 @@ color:#2f4fe0;
     -ms-transition: .3s;
     -o-transition: .3s;
     margin-top: 20px;
+    font-family: "Nunito Sans",sans-serif;
 }
 .mega_menu__demo_button:hover{
     transform:translateY(-2px);
