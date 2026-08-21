@@ -1121,132 +1121,23 @@ a.btn-color1:hover {
     position: absolute;
     left: 0;
     top: 0;
-}
+} 
 /**************************************/
 /********************************clients stylesheet start***********************************/
+.testimonial-section {
+	padding: 40px 0 !important;
+	background-color: var(--theme-light) !important;
+}
+.testimonial-section .testimonial-section-row-flow ul li .testimonial-single-item .testimonial-thumb:after {
+	color: var(--theme) !important;
+}
+.testimonial-section .testimonial-single-item.more-testimonials {
+	background-color: var(--theme) !important;
+}
+.testimonial-section .testimonial-single-item.more-testimonials:hover {
+	background-color: var(--theme-hover) !important;
+}
 
-.reviews{
-    padding: 0;
-}
-.reviews p {
-    text-align: center;
-}
-.reviews .text-center {
-    text-align: center;
-}
-.reviews-inner {
-    max-width: 1310px;
-    padding: 0 15px;
-    box-sizing: border-box;
-    margin: 0 auto;
-}
-.reviews ul {
-    padding: 0;
-    gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-.reviews ul li img {
-    width: 100%;
-    border-radius: 18px;
-    vertical-align: top;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.reviews ul li a {
-    position: relative;
-    display: block;
-    border: 8px solid #fff;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    overflow: hidden;
-    background-color: #fff;
-    width: 100%;
-}
-.reviews ul li a::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 15px;
-    right: 15px;
-    background-image: url(../images/carcare-app/play-black.svg);
-    background-repeat: no-repeat;
-    background-size: 40px;
-    z-index: 1;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-    background-position: center;
-    box-sizing: border-box;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-}
-.reviews ul li:not(:last-child) a::before {
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top: 71%
-}
-.reviews ul li.morereview a {
-    min-height: 100%;
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 34px;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--theme);
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-}
-.reviews ul li.morereview a:hover {
-    background-color: var(--theme-hover);
-}
-.reviews ul li.morereview a:before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 50px;
-    height: 50px;
-    border-width: 1px 0 0 1px;
-    border-style: solid;
-    border-color: #fff;
-    border-radius: 20px 0 0 0;
-    -webkit-border-radius: 20px 0 0 0;
-    -moz-border-radius: 20px 0 0 0;
-    -ms-border-radius: 20px 0 0 0;
-    -o-border-radius: 20px 0 0 0;
-    background-image: none;
-    background-color: transparent;
-    box-shadow: none;
-}
-.reviews ul li.morereview a:after {
-    content: '';
-    position: absolute;
-    top: auto;
-    right: 10px;
-    bottom: 10px;
-    width: 50px;
-    height: 50px;
-    border-width: 0 1px 1px 0;
-    border-style: solid;
-    border-color: #fff;
-    background-image: none;
-    background-color: transparent;
-    box-shadow: none;
-    border-radius: 0 0 20px 0;
-    -webkit-border-radius: 0 0 20px 0;
-    -moz-border-radius: 0 0 20px 0;
-    -ms-border-radius: 0 0 20px 0;
-    -o-border-radius: 0 0 20px 0;
-}
 /**************************************************/
 .fronend-section._PT50_ {
     padding-top: 100px;
@@ -2024,10 +1915,6 @@ a.btn-color1:hover {
     .as_main__div{
         padding: 40px 15px 0 15px;
     }
-    .reviews ul li.morereview a{
-        font-size: 2.5vw;
-        line-height: 3.5vw;
-    }
     /*********************************************/
 }
 @media screen and (max-width:991px) {
@@ -2206,13 +2093,6 @@ a.btn-color1:hover {
         font-size: 16px;
     }
     /**************************************/
-    .reviews ul {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .reviews a.reviews-btn {
-        padding: 10px 50px;
-        font-size: 22px;
-    }
     /**************************************/
     .work-process ul {
         justify-content: center;
@@ -2279,10 +2159,6 @@ a.btn-color1:hover {
     .banner-right {
         text-align: center;
     }
-    .reviews ul li.morereview a {
-        font-size: 23px;
-        line-height: 28px;
-    }
     /****************************************/
     .features ul {
         grid-template-columns: repeat(2, 1fr);
@@ -2336,10 +2212,6 @@ a.btn-color1:hover {
         font-size: 32px;
         text-align: center;
         line-height: 36px;
-    }
-    .reviews ul li.morereview a {
-        font-size: 18px;
-        line-height: 22px;
     }
     /********************************************/
     .client-section-left.for_mobile .client-img-hold {
@@ -2418,47 +2290,6 @@ a.btn-color1:hover {
         font-size: 14px;
     }
     /**************************************/
-    ul.reviews-list {
-        grid-template-columns: 1fr 1fr;
-    }
-    ul.reviews-list li a {
-        border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
-        border: 0;
-    }
-    ul.reviews-list li a img {
-        border-radius: 8px;
-    }
-    ul.reviews-list li.morereview a {
-        font-size: 4.1vw;
-        line-height: 5.2vw;
-    }
-    ul.reviews-list li a::after {
-        width: 35px;
-        height: 35px;
-        background-size: 29px;
-    }
-    ul.reviews-list li.morereview a:before {
-        width: 40px;
-        height: 40px;
-        border-radius: 10px 0 0 0;
-        -webkit-border-radius: 10px 0 0 0;
-        -moz-border-radius: 10px 0 0 0;
-        -ms-border-radius: 10px 0 0 0;
-        -o-border-radius: 10px 0 0 0;
-    }
-    ul.reviews-list li.morereview a:after {
-        width: 40px;
-        height: 40px;
-        border-radius: 0 0 10px 0;
-        -webkit-border-radius: 0 0 10px 0;
-        -moz-border-radius: 0 0 10px 0;
-        -ms-border-radius: 0 0 10px 0;
-        -o-border-radius: 0 0 10px 0;
-    }
     .features.appsol ul li {
         width: 100%;
         padding: 0;
@@ -2522,9 +2353,6 @@ a.btn-color1:hover {
 
     .provide ul li:last-child {
         grid-column: auto;
-    }
-    .reviews{
-        padding: 0;
     }
     .services ul {
         grid-template-columns: 1fr;
@@ -2594,11 +2422,6 @@ a.btn-color1:hover {
         padding: 40px 0 80px 0;
     }
     /******************************************/
-    .reviews ul li a::after {
-        width: 37px;
-        height: 37px;
-        background-size: 33px;
-    }
 }
 @media screen and (min-width:1921px) {
     .mainWrapper {

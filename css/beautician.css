@@ -1010,189 +1010,28 @@ img {
 .torn-pricing img {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 0; 
     max-width: 100%;
-}
+} 
 .torn-pricing:before {
     content: '';
     display: block;
     width: 100%;
     padding-top: 45.5%;
 }
-.client-reviews {
-    background-color: #ffe3f2;
+/**************************************/
+.testimonial-section {
+	padding: 40px 0 !important;
+	background-color: var(--theme-light) !important;
 }
-.client-reviews .text-center {
-  text-align: center;
+.testimonial-section .testimonial-section-row-flow ul li .testimonial-single-item .testimonial-thumb:after {
+	color: var(--theme) !important;
 }
-.client-reviews a.client-reviews-btn {
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  margin-bottom: 0;
-  font-size: 32px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #fff;
-  display: inline-flex;
-  padding: 11px 90px;
-  transition: all 0.5s ease 0s;
-  background-color: #db4a9c;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  text-decoration: none;
+.testimonial-section .testimonial-single-item.more-testimonials {
+	background-color: var(--theme) !important;
 }
-.client-reviews a.client-reviews-btn:hover {
-  background-color: #8f2260;
-}
-.client-reviews-inner {
-  max-width: 1310px;
-  padding: 0 15px;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-.client-reviews-inner .heading-area img{
-    max-width: 100%;
-}
-.client-reviews ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 20px;
-}
-.client-reviews ul li {
-    width: 25%;
-    padding: 0 10px;
-}
-
-.client-reviews ul li a {
-  position: relative;
-  display: inline-block;
-  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-  -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-  overflow: hidden;
-  background-color: #fff;
-  border: 8px solid #fff;
-  vertical-align: top;
-  width: 100%;
-}
-.client-reviews ul li:not(:last-child) a::before{
-    content: "";
-    display: block;
-    width: 100%;
-    padding-top: 71%;
-}
-.client-reviews ul li img {
-    width: 100%;
-    border-radius: 8px;
-    vertical-align: top;
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-.client-reviews ul li a::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 15px;
-  right: 15px;
-  background-image: url(../images/xbeautician/play-video-pink.svg);
-  background-repeat: no-repeat;
-  background-size: 40px;
-  z-index: 1;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 50%;
-  background-position: center;
-  box-sizing: border-box;
-  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-  -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-}
-.heading-area .heading2{
-    font-size: 18px;
-    font-weight: 500;
-}
-.client-reviews .button-part a, .screens-inner .button-part a {
-    font-size: 25px;
-    padding: 20px 50px 25px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.client-reviews .button-part {
-    padding-top: 0;
-    text-align: center;
-}
-.client-reviews ul li.morereview a {
-    min-height: 100%;
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 34px;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--theme);
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-}
-.client-reviews ul li.morereview a:hover {
-    background-color: var(--theme-hover);
-}
-.client-reviews ul li.morereview a:before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 50px;
-    height: 50px;
-    border-width: 1px 0 0 1px;
-    border-style: solid;
-    border-color: #fff;
-    border-radius: 20px 0 0 0;
-    -webkit-border-radius: 20px 0 0 0;
-    -moz-border-radius: 20px 0 0 0;
-    -ms-border-radius: 20px 0 0 0;
-    -o-border-radius: 20px 0 0 0;
-    background-image: none;
-    background-color: transparent;
-    box-shadow: none;
-}
-.client-reviews ul li.morereview a:after {
-    content: '';
-    position: absolute;
-    top: auto;
-    right: 10px;
-    bottom: 10px;
-    width: 50px;
-    height: 50px;
-    border-width: 0 1px 1px 0;
-    border-style: solid;
-    border-color: #fff;
-    background-image: none;
-    background-color: transparent;
-    box-shadow: none;
-    border-radius: 0 0 20px 0;
-    -webkit-border-radius: 0 0 20px 0;
-    -moz-border-radius: 0 0 20px 0;
-    -ms-border-radius: 0 0 20px 0;
-    -o-border-radius: 0 0 20px 0;
+.testimonial-section .testimonial-single-item.more-testimonials:hover {
+	background-color: var(--theme-hover) !important;
 }
 /**************************************/
 .button-part {
@@ -1814,10 +1653,6 @@ img {
     .provide-right {
         width: 45.2%;
     }
-    .client-reviews ul li.morereview a{
-        font-size: 2.5vw;
-        line-height: 3.2vw;
-    }
 }
 @media screen and (max-width:1024px) {
     .right-artical{
@@ -1978,18 +1813,6 @@ img {
     .banner-bottom-part .package-banner-inner {
         display: block;
     }
-    .client-reviews ul li {
-        width: 33.33%;
-    }
-    .client-reviews ul li.morereview a {
-        font-size: 23px;
-        line-height: 28px;
-    }
-    .client-reviews ul li a::after {
-        width: 37px;
-        height: 37px;
-        background-size: 33px;
-    }
     /****************************************/
     .inq_form .box-shadow ul li {
         width: 100%;
@@ -2016,10 +1839,6 @@ img {
     }
 }
 @media screen and (max-width:767px) {
-    .client-reviews ul li.morereview a {
-        font-size: 18px;
-        line-height: 22px;
-    }
     .features ul {
         grid-template-columns: 1fr 1fr;
     }
@@ -2063,59 +1882,6 @@ img {
         font-size: 14px;
     }
     /**************************************/
-    .client-reviews ul li.morereview a {
-        font-size: 15px;
-        line-height: 19px;
-    }
-    .client-reviews ul li.morereview a {
-        font-size: 4.2vw;
-        line-height: 5.2vw;
-    }
-    .client-reviews ul li {
-        width: 50%;
-        padding: 0 8px;
-    }
-    .client-reviews ul li a{
-        border: 2px solid #fff;
-        border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
-    }
-    .client-reviews ul li a img{
-        border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
-    }
-    .client-reviews ul li.morereview a:before {
-        width: 35px;
-        height: 35px;
-        border-radius: 10px 0 0 0;
-        -webkit-border-radius: 10px 0 0 0;
-        -moz-border-radius: 10px 0 0 0;
-        -ms-border-radius: 10px 0 0 0;
-        -o-border-radius: 10px 0 0 0;
-        background-image: none;
-        background-color: transparent;
-        box-shadow: none;
-    }
-    .client-reviews ul li.morereview a:after {
-        width: 35px;
-        height: 35px;
-        border-radius: 0 0 10px 0;
-        -webkit-border-radius: 0 0 10px 0;
-        -moz-border-radius: 0 0 10px 0;
-        -ms-border-radius: 0 0 10px 0;
-        -o-border-radius: 0 0 10px 0;
-    }
-    .client-reviews ul li a::after {
-        width: 35px;
-        height: 35px;
-        background-size: 29px;
-    }
     .work-process ul li {
         width: 100%;
     }
@@ -2151,15 +1917,6 @@ img {
     }
     .video-section .demo-video{
         border-width: 5px;
-    }
-    .client-reviews .button-part a, .screens-inner .button-part a {
-        font-size: 18px;
-        padding: 12px 15px;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
     }
     .demo-links-row ul {
         grid-template-columns: 1fr 1fr;
