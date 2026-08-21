@@ -4,7 +4,6 @@
     --theme-medium:#ffe0f0;
     --theme-hover:#a11d66;
 }
-
 @keyframes buttonanim {
     0% {
         width: 0%;
@@ -1030,7 +1029,7 @@ img {
 }
 .testimonial-section .testimonial-single-item.more-testimonials {
 	background-color: var(--theme) !important;
-}
+} 
 .testimonial-section .testimonial-single-item.more-testimonials:hover {
 	background-color: var(--theme-hover) !important;
 }

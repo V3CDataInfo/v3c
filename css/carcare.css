@@ -4,7 +4,6 @@
     --theme-medium:#b4eaff;
     --theme-light:#e3f7ff;
 }
-
 @keyframes pulse-me {
     0% {
         transform: scale(.9);
@@ -1109,7 +1108,7 @@ a.btn-color1:hover {
     left: 0;
     margin-top: 60px;
 }
-.torn-pricing {
+.torn-pricing { 
     position: relative;
 }
 .torn-pricing::before{
