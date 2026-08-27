@@ -4,6 +4,9 @@
     --theme-medium:#ffe0f0;
     --theme-hover:#a11d66;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--common-font), sans-serif;
+}
 @keyframes buttonanim {
     0% {
         width: 0%;
@@ -54,7 +57,7 @@
     background-color: var(--theme);
     font-size: 20px;
     text-transform: initial;
-    font-weight: 600;
+    font-weight: bold;
     padding: 10px 40px 13px 40px;
     color: #fff;
     display: inline-flex;
@@ -87,8 +90,8 @@ p {
     line-height: 23px;
     font-size: 16px;
     color: #000;
-    font-weight: 400;
-    font-family: 'Exo 2';
+    font-weight: 500;
+    font-family: var(--common-font);
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -197,8 +200,8 @@ img {
     width: 50%;
 }
 .banner .h1 {
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 42px;
+    font-weight: 800;
     color: var(--theme);
     margin-top:0;
     margin-bottom: 9px;
@@ -207,9 +210,9 @@ img {
     text-transform: uppercase;
 }
 .banner .strong {
-    font-size: 24px;
+    font-size: 22px;
     color: var(--theme);
-    font-weight: bold;
+    font-weight: 800;
     line-height: 1em;
     margin-bottom: 10px;
     display: block;
@@ -267,18 +270,18 @@ img {
 }
 .sub-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1em;
     color: var(--theme);
-    font-weight: 600;
+    font-weight: bold;
     display: block;
     margin-top: 3px;
 }
 .inq_form .head-style,
 .main-title {
-    font-size: 34px;
+    font-size: 33px;
     line-height: 1em;
-    font-weight: bold;
+    font-weight: 800;
     color: #000;
     text-transform: uppercase;
 }
@@ -371,7 +374,7 @@ img {
     text-transform: capitalize;
     font-size: 18px;
     color: #000;
-    font-weight: 600;
+    font-weight: bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -439,6 +442,7 @@ img {
     text-transform: capitalize;
     line-height: 1em;
     margin: 0 0 10px;
+    font-weight: 800;
 }
 .services ul li i {
     font-size: 55px;
@@ -520,7 +524,7 @@ img {
     list-style: none;
     padding-left: 21px;
     position: relative;
-    font-weight: 400;
+    font-weight: 500;
     color: #000;
 }
 .provide ul li:before {
@@ -680,7 +684,7 @@ img {
     height: 50px;
     padding: 15px 15px;
     box-sizing: border-box;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
     color: #606060;
     letter-spacing: 1px;
@@ -975,9 +979,9 @@ img {
     text-align: justify;
 }
 .pricing .get-quote {
-    font-size: 22px;
+    font-size: 21px;
     background-color: var(--theme);
-    font-weight: 600;
+    font-weight: bold;
     color: #ffffff;
     padding: 14px 40px 17px 40px;
     min-width: 264px;
@@ -1017,7 +1021,7 @@ img {
     content: '';
     display: block;
     width: 100%;
-    padding-top: 45.5%;
+    padding-top: 45%;
 }
 /**************************************/
 .testimonial-section {
@@ -1044,7 +1048,7 @@ img {
 }
 .button-part a {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: bold;
     padding: 10px 15px 13px 15px;
     width: auto;
     min-height: auto;
@@ -1092,7 +1096,6 @@ img {
     line-height: normal;
     font-size: 13px;
     color: #000;
-    font-weight: 600;
     margin-top: 1px;
     text-transform: uppercase;
 }
@@ -1267,8 +1270,8 @@ img {
 }
 .inq_form form input[type=submit] {
     color: #fff;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: bold;
     padding: 15px 30px 13px 30px;
     background-color: var(--theme);
     width: auto;
@@ -1288,7 +1291,7 @@ img {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    font-family: 'exo 2';
+    font-family: var(--common-font);
 }
 .inq_form form input:hover[type=submit] {
     background-color: var(--theme-hover);
@@ -1435,6 +1438,7 @@ img {
     -moz-border-radius: 12px 12px 0 0;
     -ms-border-radius: 12px 12px 0 0;
     -o-border-radius: 12px 12px 0 0;
+    font-weight: 800;
 }
 .faq_list li p {
     padding: 0 20px;
@@ -1530,7 +1534,7 @@ img {
 .AP__FET .title-and-icon strong {
   font-size: 20px;
   color: #000;
-  font-weight: bold;
+  font-weight: 800;
   display: block;
   line-height: 1em;
   text-transform: capitalize;
