@@ -871,11 +871,11 @@ ul.weblinks {
   }
   .inq_form .input-row-flow {
     margin-bottom: 16px;
-    width: calc(50% - 15px);
-    width: -o-calc(50% - 15px);
-    width: -ms-calc(50% - 15px);
-    width: -moz-calc(50% - 15px);
-    width: -webkit-calc(50% - 15px);
+    width: calc(50% - 10px);
+    width: -o-calc(50% - 10px);
+    width: -ms-calc(50% - 10px);
+    width: -moz-calc(50% - 10px);
+    width: -webkit-calc(50% - 10px);
   }
   .inq_form .input-row-flow:last-child {
     width: calc(100% - 0px);
@@ -883,6 +883,9 @@ ul.weblinks {
     width: -ms-calc(100% - 0px);
     width: -moz-calc(100% - 0px);
     width: -webkit-calc(100% - 0px);
+  }
+  .inq_form .input-row-flow:nth-last-child(2) {
+    width: 100%;
   }
   .inq_form .input-row-flow .g-recaptcha {
     margin-top: 20px;
