@@ -6,8 +6,21 @@
 .inner-banner {
     height: auto;
 }
+body {
+    font-family: var(--font-nunito), sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-nunito), sans-serif;
+}
 img {
     vertical-align: top;
+}
+h1.page-heading {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1em;
 }
 span.sub-heading1 {
     color: #ff6f02;
@@ -16,6 +29,9 @@ span.sub-heading1 {
     font-weight: 300;
     margin-top: 5px;
     text-align: center;
+}
+.inner-banner {
+    padding: 25px 0;
 }
 p {
     margin: 0 0 15px 0;
@@ -98,10 +114,10 @@ main {
     padding: 10px 10px 10px 20px;
     border-radius: 30px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: 10px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 16px;
     display: inline-flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -156,9 +172,9 @@ main {
 }
 
 .card-content h3{
-    font-size:20px;
-    font-weight:700;
-    margin-bottom:10px;
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 .card-content h3:last-child {
     margin-bottom: 0;
@@ -207,8 +223,8 @@ main {
 }
 .heading-style {
     color: #000;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 38px;
+    font-weight: 800;
     text-transform: capitalize;
 }
 .heading-style span {
