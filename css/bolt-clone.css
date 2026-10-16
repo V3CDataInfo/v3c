@@ -2087,7 +2087,7 @@ ul.reviews-list li.morereview a:after {
     ul.reviews-list li a::after {
         width: 36px;
         height: 36px;
-        background-size: 30px;
+        background-size: 30px ;
     }
 }
 
@@ -2100,6 +2100,9 @@ ul.reviews-list li.morereview a:after {
         grid-template-columns: 100%;
     }
 }
+
+
+
 
 
 
