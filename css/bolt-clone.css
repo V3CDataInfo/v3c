@@ -1493,21 +1493,23 @@ a.btn-color1:hover {
     width: 100%
 }
 .masonry-block_ a.view-more {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     background-color: var(--theme);
     position: relative;
-    transition: all 0.5s ease 0s;
-    -webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    -ms-transition: all 0.5s ease 0s;
-    -o-transition: all 0.5s ease 0s;
+    min-height: 100% !important;
+    transition: 0.5s;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    min-height: 100%;
+    padding: 10px;
+}
+.masonry-block_.col-2 b {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .masonry-block_ a.view-more:hover {
     background-color: var(--theme-hover)
@@ -1515,37 +1517,36 @@ a.btn-color1:hover {
 .masonry-block_ a.view-more img {
     margin-bottom: 0;
 }
-.masonry-block_ a.view-more>span {
-    position: absolute;
+.masonry-block_ a.view-more > span {
     width: 100%;
     height: 100%;
-    left: 0;
-    color: #fff;
-    text-transform: uppercase;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
     font-weight: 700;
-    font-size: 28px
+    flex-direction: column;
 }
-.masonry-block_ a.view-more:before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    bottom: 10px;
-    right: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    pointer-events: none
+.masonry-block_.col-2 i {
+    width: 37px;
+    height: 37px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    color: var(--theme);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }
+.masonry-block_.col-2 p {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 17px;
+    margin: 0px 0px 10px;
+}
+
 .masonry.open ._row_.have_more .masonry-block_:last-child {
     display: block
 }
@@ -1937,6 +1938,33 @@ ul.reviews-list li.morereview a:after {
     .demo-banner-inner {
         padding: 30px;
     }
+    .masonry-block_.col-5,
+    .masonry-block_.col-2 {
+        width: calc(33.7% - 10px);
+        width: -o-calc(33.7% - 10px);
+        width: -ms-calc(33.7% - 10px);
+        width: -moz-calc(33.7% - 10px);
+        width: -webkit-calc(33.7% - 10px);
+    }
+
+    .masonry-block_.col-2 i {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .masonry-block_ img {
+        height: 161px;
+        object-fit: cover;
+    }
+    .masonry-icon>svg {
+    width: 40px;
+}
+.masonry-block_.col-2 b {
+    font-size: 18px;
+    margin: 0 0 2px;
+    display: block;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -2020,6 +2048,46 @@ ul.reviews-list li.morereview a:after {
     }
     .web-section-row {
         grid-template-columns: 100%;
+    }
+    .masonry-block_ img{
+        height: auto;
+    }
+    ul.reviews-list li a img {
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    ul.reviews-list li a {
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    ul.reviews-list li.morereview a:before {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px 0 0 0;
+        -webkit-border-radius: 10px 0 0 0;
+        -moz-border-radius: 10px 0 0 0;
+        -ms-border-radius: 10px 0 0 0;
+        -o-border-radius: 10px 0 0 0;
+    }
+    ul.reviews-list li.morereview a:after {
+        width: 40px;
+        height: 40px;
+        border-radius: 0 0 10px 0;
+        -webkit-border-radius: 0 0 10px 0;
+        -moz-border-radius: 0 0 10px 0;
+        -ms-border-radius: 0 0 10px 0;
+        -o-border-radius: 0 0 10px 0;
+    }
+    ul.reviews-list li a::after {
+        width: 36px;
+        height: 36px;
+        background-size: 30px;
     }
 }
 
